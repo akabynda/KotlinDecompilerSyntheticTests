@@ -1,5 +1,7 @@
 package ifElseOperator.CFR
 
+// ChatGPT
+
 fun main() {
     val number = 10
     if (number > 5) {

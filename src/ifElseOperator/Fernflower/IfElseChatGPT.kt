@@ -1,5 +1,7 @@
 package ifElseOperator.Fernflower
 
+// ChatGPT
+
 fun main() {
     val number = 7  // You can change this value to test different conditions
 
