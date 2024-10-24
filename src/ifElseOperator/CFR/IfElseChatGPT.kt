@@ -1,8 +1,7 @@
 package ifElseOperator.CFR
 
 fun main() {
-    val number = 7  // You can change this value to test different conditions
-
+    val number = 10
     if (number > 5) {
         println("Число больше 5")
     } else {

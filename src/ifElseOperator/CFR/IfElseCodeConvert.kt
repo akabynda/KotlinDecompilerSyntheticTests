@@ -1,7 +1,13 @@
 package ifElseOperator.CFR
 
-fun main() {
-    val number = true
-    println("Число больше 5")
+import kotlin.jvm.JvmStatic
+
+object IfElseCodeConvert {
+    @JvmStatic
+    fun main() {
+        val number = 10
+        println("Число больше 5")
+    }
 }
+
 
