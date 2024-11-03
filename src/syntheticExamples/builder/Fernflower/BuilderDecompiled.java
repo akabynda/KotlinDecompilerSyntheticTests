@@ -8,10 +8,6 @@ import kotlin.jvm.functions.Function1;
 import kotlin.jvm.internal.Intrinsics;
 import org.jetbrains.annotations.NotNull;
 
-// Error in code: Incompatible types: Object is not convertible to List
-// in List numbers = buildList(BuilderDecompiled::main$lambda$0);
-
-/*
 @Metadata(
         mv = {2, 0, 0},
         k = 2,
@@ -21,15 +17,18 @@ import org.jetbrains.annotations.NotNull;
 )
 public final class BuilderDecompiled {
     @NotNull
-    public static final List buildList(@NotNull Function1 block) {
+    // public static final List buildList(@NotNull Function1 block) {
+    public static final <T> List<T> buildList(@NotNull Function1<? super List<T>, Unit> block) {
         Intrinsics.checkNotNullParameter(block, "block");
-        List list = (List)(new ArrayList());
+        // List list = (List)(new ArrayList());
+        List<T> list = new ArrayList<>();
         block.invoke(list);
         return list;
     }
 
     public static final void main() {
-        List numbers = buildList(BuilderDecompiled::main$lambda$0);
+        // List numbers = buildList(BuilderDecompiled::main$lambda$0);
+        List<Integer> numbers = buildList(BuilderDecompiled::populateListWithIntegers);
         System.out.println(numbers);
     }
 
@@ -38,12 +37,12 @@ public final class BuilderDecompiled {
         main();
     }
 
-    private static final Unit main$lambda$0(List $this$buildList) {
-        Intrinsics.checkNotNullParameter($this$buildList, "$this$buildList");
-        $this$buildList.add(1);
-        $this$buildList.add(2);
-        $this$buildList.add(3);
+    // private static final Unit main$lambda$0(List $this$buildList) {
+    private static final Unit populateListWithIntegers(List<Integer> list) {
+        Intrinsics.checkNotNullParameter(list, "list");
+        list.add(1);
+        list.add(2);
+        list.add(3);
         return Unit.INSTANCE;
     }
 }
- */
