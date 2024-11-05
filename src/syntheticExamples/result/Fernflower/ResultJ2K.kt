@@ -1,5 +1,7 @@
 package syntheticExamples.result.Fernflower
 
+// doesn't work
+
 /*
 @Metadata(
     mv = {2, 0, 0},

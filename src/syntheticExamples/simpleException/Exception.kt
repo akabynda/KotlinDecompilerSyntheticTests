@@ -1,3 +1,5 @@
+package syntheticExamples.simpleException
+
 fun main() {
     try {
         val division = 10 / 0
