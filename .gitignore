@@ -34,3 +34,5 @@ bin/
 
 /src/tools/DirTree.kt
 /tools/template.txt
+/.idea/
+/.idea/misc.xml
