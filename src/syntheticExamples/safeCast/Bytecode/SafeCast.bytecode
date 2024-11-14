@@ -1,0 +1,52 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/safeCast/SafeCastKt {
+
+  // compiled from: SafeCast.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    LDC "String"
+    ASTORE 0
+   L1
+    LINENUMBER 5 L1
+    ALOAD 0
+    INSTANCEOF java/lang/Integer
+    IFEQ L2
+    ALOAD 0
+    CHECKCAST java/lang/Integer
+    GOTO L3
+   L2
+   FRAME APPEND [java/lang/String]
+    ACONST_NULL
+   L3
+   FRAME SAME1 java/lang/Integer
+    ASTORE 1
+   L4
+    LINENUMBER 6 L4
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 1
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L5
+    LINENUMBER 7 L5
+    RETURN
+   L6
+    LOCALVARIABLE obj Ljava/lang/Object; L1 L6 0
+    LOCALVARIABLE num Ljava/lang/Integer; L4 L6 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/safeCast/SafeCastKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

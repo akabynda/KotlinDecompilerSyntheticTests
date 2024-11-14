@@ -1,0 +1,61 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/destructuring/DestructuringKt {
+
+  // compiled from: Destructuring.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 6 L0
+    NEW syntheticExamples/destructuring/Point
+    DUP
+    BIPUSH 10
+    BIPUSH 20
+    INVOKESPECIAL syntheticExamples/destructuring/Point.<init> (II)V
+    ASTORE 0
+    ALOAD 0
+    INVOKEVIRTUAL syntheticExamples/destructuring/Point.component1 ()I
+    ISTORE 1
+   L1
+    ALOAD 0
+    INVOKEVIRTUAL syntheticExamples/destructuring/Point.component2 ()I
+    ISTORE 2
+   L2
+    LINENUMBER 7 L2
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "x = "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 1
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    LDC ", y = "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 2
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L3
+    LINENUMBER 8 L3
+    RETURN
+   L4
+    LOCALVARIABLE x I L1 L4 1
+    LOCALVARIABLE y I L2 L4 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/destructuring/DestructuringKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

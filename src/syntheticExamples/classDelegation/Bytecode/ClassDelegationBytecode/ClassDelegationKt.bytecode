@@ -1,0 +1,48 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/classDelegation/ClassDelegationKt {
+
+  // compiled from: ClassDelegation.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 16 L0
+    NEW syntheticExamples/classDelegation/BaseImpl
+    DUP
+    LDC "Hello from BaseImpl"
+    INVOKESPECIAL syntheticExamples/classDelegation/BaseImpl.<init> (Ljava/lang/String;)V
+    ASTORE 0
+   L1
+    LINENUMBER 17 L1
+    NEW syntheticExamples/classDelegation/Derived
+    DUP
+    ALOAD 0
+    CHECKCAST syntheticExamples/classDelegation/Base
+    INVOKESPECIAL syntheticExamples/classDelegation/Derived.<init> (LsyntheticExamples/classDelegation/Base;)V
+    ASTORE 1
+   L2
+    LINENUMBER 18 L2
+    ALOAD 1
+    INVOKEVIRTUAL syntheticExamples/classDelegation/Derived.printMessage ()V
+   L3
+    LINENUMBER 19 L3
+    RETURN
+   L4
+    LOCALVARIABLE base LsyntheticExamples/classDelegation/BaseImpl; L1 L4 0
+    LOCALVARIABLE derived LsyntheticExamples/classDelegation/Derived; L2 L4 1
+    MAXSTACK = 3
+    MAXLOCALS = 2
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/classDelegation/ClassDelegationKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

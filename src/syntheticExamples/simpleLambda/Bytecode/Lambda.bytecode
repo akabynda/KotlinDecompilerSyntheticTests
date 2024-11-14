@@ -1,0 +1,138 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/simpleLambda/LambdaKt {
+
+  // compiled from: Lambda.kt
+  // debug info: SMAP
+Lambda.kt
+Kotlin
+*S Kotlin
+*F
++ 1 Lambda.kt
+syntheticExamples/simpleLambda/LambdaKt
++ 2 _Collections.kt
+kotlin/collections/CollectionsKt___CollectionsKt
+*L
+1#1,7:1
+1863#2,2:8
+*S KotlinDebug
+*F
++ 1 Lambda.kt
+syntheticExamples/simpleLambda/LambdaKt
+*L
+5#1:8,2
+*E
+
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  @Lkotlin/jvm/internal/SourceDebugExtension;(value={"SMAP\nLambda.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Lambda.kt\nsyntheticExamples/simpleLambda/LambdaKt\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,7:1\n1863#2,2:8\n*S KotlinDebug\n*F\n+ 1 Lambda.kt\nsyntheticExamples/simpleLambda/LambdaKt\n*L\n5#1:8,2\n*E\n"}) // invisible
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    ICONST_5
+    ANEWARRAY java/lang/Integer
+    ASTORE 1
+    ALOAD 1
+    ICONST_0
+    ICONST_1
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    AASTORE
+    ALOAD 1
+    ICONST_1
+    ICONST_2
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    AASTORE
+    ALOAD 1
+    ICONST_2
+    ICONST_3
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    AASTORE
+    ALOAD 1
+    ICONST_3
+    ICONST_4
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    AASTORE
+    ALOAD 1
+    ICONST_4
+    ICONST_5
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    AASTORE
+    ALOAD 1
+    INVOKESTATIC kotlin/collections/CollectionsKt.listOf ([Ljava/lang/Object;)Ljava/util/List;
+    ASTORE 0
+   L1
+    LINENUMBER 5 L1
+    ALOAD 0
+    CHECKCAST java/lang/Iterable
+    ASTORE 1
+   L2
+    ICONST_0
+    ISTORE 2
+   L3
+    LINENUMBER 8 L3
+    ALOAD 1
+    INVOKEINTERFACE java/lang/Iterable.iterator ()Ljava/util/Iterator; (itf)
+    ASTORE 3
+   L4
+   FRAME FULL [java/util/List java/lang/Iterable I java/util/Iterator] []
+    ALOAD 3
+    INVOKEINTERFACE java/util/Iterator.hasNext ()Z (itf)
+    IFEQ L5
+    ALOAD 3
+    INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object; (itf)
+    ASTORE 4
+   L6
+    ALOAD 4
+    CHECKCAST java/lang/Number
+    INVOKEVIRTUAL java/lang/Number.intValue ()I
+    ISTORE 5
+   L7
+    ICONST_0
+    ISTORE 6
+   L8
+    LINENUMBER 5 L8
+    ILOAD 5
+    ILOAD 5
+    IMUL
+    ISTORE 7
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ILOAD 7
+    INVOKEVIRTUAL java/io/PrintStream.println (I)V
+   L9
+    LINENUMBER 5 L9
+    NOP
+   L10
+    LINENUMBER 8 L10
+    NOP
+   L11
+    GOTO L4
+   L5
+    LINENUMBER 9 L5
+   FRAME SAME
+    NOP
+   L12
+    LINENUMBER 6 L12
+    RETURN
+   L13
+    LOCALVARIABLE $i$a$-forEach-LambdaKt$main$1 I L8 L10 6
+    LOCALVARIABLE n I L7 L10 5
+    LOCALVARIABLE element$iv Ljava/lang/Object; L6 L11 4
+    LOCALVARIABLE $i$f$forEach I L3 L12 2
+    LOCALVARIABLE $this$forEach$iv Ljava/lang/Iterable; L2 L12 1
+    LOCALVARIABLE numbers Ljava/util/List; L1 L13 0
+    MAXSTACK = 3
+    MAXLOCALS = 8
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/simpleLambda/LambdaKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

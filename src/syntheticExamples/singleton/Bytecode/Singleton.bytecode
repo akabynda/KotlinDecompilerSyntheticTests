@@ -1,0 +1,30 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/singleton/SingletonKt {
+
+  // compiled from: Singleton.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 10 L0
+    GETSTATIC syntheticExamples/singleton/Singleton.INSTANCE : LsyntheticExamples/singleton/Singleton;
+    INVOKEVIRTUAL syntheticExamples/singleton/Singleton.doSomething ()V
+   L1
+    LINENUMBER 11 L1
+    RETURN
+    MAXSTACK = 1
+    MAXLOCALS = 0
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/singleton/SingletonKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

@@ -1,0 +1,150 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/propertyDelegation/User {
+
+  // compiled from: PropertyDelegation.kt
+  // debug info: SMAP
+PropertyDelegation.kt
+Kotlin
+*S Kotlin
+*F
++ 1 PropertyDelegation.kt
+syntheticExamples/propertyDelegation/User
++ 2 Delegates.kt
+kotlin/properties/Delegates
+*L
+1#1,15:1
+33#2,3:16
+*S KotlinDebug
+*F
++ 1 PropertyDelegation.kt
+syntheticExamples/propertyDelegation/User
+*L
+6#1:16,3
+*E
+
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=1, xi=82, d1={"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003R+\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u00058F@FX\u0086\u008e\u0002\u00a2\u0006\u0012\n\u0004\u0008\u000b\u0010\u000c\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\u0009\u0010\n\u00a8\u0006\r"}, d2={"LsyntheticExamples/propertyDelegation/User;", "", "<init>", "()V", "<set-?>", "", "name", "getName", "()Ljava/lang/String;", "setName", "(Ljava/lang/String;)V", "name$delegate", "Lkotlin/properties/ReadWriteProperty;", "KotlinDecompiler"})
+
+  @Lkotlin/jvm/internal/SourceDebugExtension;(value={"SMAP\nPropertyDelegation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PropertyDelegation.kt\nsyntheticExamples/propertyDelegation/User\n+ 2 Delegates.kt\nkotlin/properties/Delegates\n*L\n1#1,15:1\n33#2,3:16\n*S KotlinDebug\n*F\n+ 1 PropertyDelegation.kt\nsyntheticExamples/propertyDelegation/User\n*L\n6#1:16,3\n*E\n"}) // invisible
+
+  // access flags 0x1018
+  // signature [Lkotlin/reflect/KProperty<Ljava/lang/Object;>;
+  // declaration: $$delegatedProperties extends kotlin.reflect.KProperty<java.lang.Object>[]
+  final static synthetic [Lkotlin/reflect/KProperty; $$delegatedProperties
+
+  // access flags 0x12
+  private final Lkotlin/properties/ReadWriteProperty; name$delegate
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+
+  // access flags 0x1
+  public <init>()V
+   L0
+    LINENUMBER 5 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+   L1
+    LINENUMBER 6 L1
+    ALOAD 0
+    GETSTATIC kotlin/properties/Delegates.INSTANCE : Lkotlin/properties/Delegates;
+    ASTORE 1
+    LDC "<not set>"
+    ASTORE 2
+   L2
+    ICONST_0
+    ISTORE 3
+   L3
+    LINENUMBER 16 L3
+    NEW syntheticExamples/propertyDelegation/User$special$$inlined$observable$1
+    DUP
+    ALOAD 2
+    INVOKESPECIAL syntheticExamples/propertyDelegation/User$special$$inlined$observable$1.<init> (Ljava/lang/Object;)V
+    CHECKCAST kotlin/properties/ReadWriteProperty
+   L4
+    LINENUMBER 18 L4
+    NOP
+   L5
+    LINENUMBER 6 L5
+    PUTFIELD syntheticExamples/propertyDelegation/User.name$delegate : Lkotlin/properties/ReadWriteProperty;
+   L6
+    LINENUMBER 5 L6
+    RETURN
+   L7
+    LOCALVARIABLE $i$f$observable I L3 L5 3
+    LOCALVARIABLE this_$iv Lkotlin/properties/Delegates; L2 L5 1
+    LOCALVARIABLE initialValue$iv Ljava/lang/Object; L2 L5 2
+    LOCALVARIABLE this LsyntheticExamples/propertyDelegation/User; L0 L7 0
+    MAXSTACK = 4
+    MAXLOCALS = 4
+
+  // access flags 0x11
+  public final getName()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    LINENUMBER 6 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/propertyDelegation/User.name$delegate : Lkotlin/properties/ReadWriteProperty;
+    ALOAD 0
+    GETSTATIC syntheticExamples/propertyDelegation/User.$$delegatedProperties : [Lkotlin/reflect/KProperty;
+    ICONST_0
+    AALOAD
+    INVOKEINTERFACE kotlin/properties/ReadWriteProperty.getValue (Ljava/lang/Object;Lkotlin/reflect/KProperty;)Ljava/lang/Object; (itf)
+    CHECKCAST java/lang/String
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/propertyDelegation/User; L0 L1 0
+    MAXSTACK = 4
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final setName(Ljava/lang/String;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 1
+    LDC "<set-?>"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 6 L1
+    ALOAD 0
+    GETFIELD syntheticExamples/propertyDelegation/User.name$delegate : Lkotlin/properties/ReadWriteProperty;
+    ALOAD 0
+    GETSTATIC syntheticExamples/propertyDelegation/User.$$delegatedProperties : [Lkotlin/reflect/KProperty;
+    ICONST_0
+    AALOAD
+    ALOAD 1
+    INVOKEINTERFACE kotlin/properties/ReadWriteProperty.setValue (Ljava/lang/Object;Lkotlin/reflect/KProperty;Ljava/lang/Object;)V (itf)
+   L2
+    LINENUMBER 8 L2
+    RETURN
+   L3
+    LOCALVARIABLE this LsyntheticExamples/propertyDelegation/User; L0 L3 0
+    LOCALVARIABLE <set-?> Ljava/lang/String; L0 L3 1
+    MAXSTACK = 4
+    MAXLOCALS = 2
+
+  // access flags 0x8
+  static <clinit>()V
+    ICONST_1
+    ANEWARRAY kotlin/reflect/KProperty
+    ASTORE 0
+    ALOAD 0
+    ICONST_0
+   L0
+    LINENUMBER 6 L0
+    NEW kotlin/jvm/internal/MutablePropertyReference1Impl
+    DUP
+    LDC LsyntheticExamples/propertyDelegation/User;.class
+    LDC "name"
+    LDC "getName()Ljava/lang/String;"
+    ICONST_0
+    INVOKESPECIAL kotlin/jvm/internal/MutablePropertyReference1Impl.<init> (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    CHECKCAST kotlin/jvm/internal/MutablePropertyReference1
+    INVOKESTATIC kotlin/jvm/internal/Reflection.mutableProperty1 (Lkotlin/jvm/internal/MutablePropertyReference1;)Lkotlin/reflect/KMutableProperty1;
+    AASTORE
+    ALOAD 0
+    PUTSTATIC syntheticExamples/propertyDelegation/User.$$delegatedProperties : [Lkotlin/reflect/KProperty;
+    RETURN
+    MAXSTACK = 8
+    MAXLOCALS = 1
+}

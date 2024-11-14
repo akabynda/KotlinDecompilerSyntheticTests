@@ -1,0 +1,47 @@
+// class version 52.0 (52)
+// access flags 0x31
+// signature <T:Ljava/lang/Object;>Ljava/lang/Object;
+// declaration: syntheticExamples/generic/Box<T>
+public final class syntheticExamples/generic/Box {
+
+  // compiled from: Generic.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=1, xi=82, d1={"\u0000\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0007\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u00020\u0002B\u000f\u0012\u0006\u0010\u0003\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R\u0013\u0010\u0003\u001a\u00028\u0000\u00a2\u0006\n\n\u0002\u0010\u0008\u001a\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\u0009"}, d2={"LsyntheticExamples/generic/Box;", "T", "", "value", "<init>", "(Ljava/lang/Object;)V", "getValue", "()Ljava/lang/Object;", "Ljava/lang/Object;", "KotlinDecompiler"})
+
+  // access flags 0x12
+  // signature TT;
+  // declaration: value extends T
+  private final Ljava/lang/Object; value
+
+  // access flags 0x1
+  // signature (TT;)V
+  // declaration: void <init>(T)
+  public <init>(Ljava/lang/Object;)V
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD syntheticExamples/generic/Box.value : Ljava/lang/Object;
+    RETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/generic/Box; L0 L1 0
+    LOCALVARIABLE value Ljava/lang/Object; L0 L1 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x11
+  // signature ()TT;
+  // declaration: T getValue()
+  public final getValue()Ljava/lang/Object;
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/generic/Box.value : Ljava/lang/Object;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/generic/Box; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+}

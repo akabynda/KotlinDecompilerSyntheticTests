@@ -1,0 +1,64 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/classDelegation/BaseImpl implements syntheticExamples/classDelegation/Base {
+
+  // compiled from: ClassDelegation.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=1, xi=82, d1={"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0010\u0002\n\u0000\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u0008\u0010\u0008\u001a\u00020\u0009H\u0016R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\n"}, d2={"LsyntheticExamples/classDelegation/BaseImpl;", "LsyntheticExamples/classDelegation/Base;", "message", "", "<init>", "(Ljava/lang/String;)V", "getMessage", "()Ljava/lang/String;", "printMessage", "", "KotlinDecompiler"})
+
+  // access flags 0x12
+  private final Ljava/lang/String; message
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+
+  // access flags 0x1
+  public <init>(Ljava/lang/String;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 1
+    LDC "message"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 7 L1
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD syntheticExamples/classDelegation/BaseImpl.message : Ljava/lang/String;
+    RETURN
+   L2
+    LOCALVARIABLE this LsyntheticExamples/classDelegation/BaseImpl; L0 L2 0
+    LOCALVARIABLE message Ljava/lang/String; L0 L2 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x11
+  public final getMessage()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    LINENUMBER 7 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/classDelegation/BaseImpl.message : Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/classDelegation/BaseImpl; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public printMessage()V
+   L0
+    LINENUMBER 9 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/classDelegation/BaseImpl.message : Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L1
+    LINENUMBER 10 L1
+    RETURN
+   L2
+    LOCALVARIABLE this LsyntheticExamples/classDelegation/BaseImpl; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+}

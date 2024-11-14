@@ -1,0 +1,78 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/builder/BuilderKt {
+
+  // compiled from: Builder.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000 \n\u0000\n\u0002\u0010 \n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010!\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u001a+\u0010\u0000\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u001d\u0010\u0003\u001a\u0019\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00020\u0005\u0012\u0004\u0012\u00020\u00060\u0004\u00a2\u0006\u0002\u0008\u0007\u001a\u0006\u0010\u0008\u001a\u00020\u0006\u00a8\u0006\u0009"}, d2={"buildList", "", "", "block", "Lkotlin/Function1;", "", "", "Lkotlin/ExtensionFunctionType;", "main", "KotlinDecompiler"})
+  // access flags 0x18
+  final static INNERCLASS syntheticExamples/builder/BuilderKt$main$numbers$1 null null
+
+  // access flags 0x19
+  // signature (Lkotlin/jvm/functions/Function1<-Ljava/util/List<Ljava/lang/Integer;>;Lkotlin/Unit;>;)Ljava/util/List<Ljava/lang/Integer;>;
+  // declaration: java.util.List<java.lang.Integer> buildList(kotlin.jvm.functions.Function1<? super java.util.List<java.lang.Integer>, kotlin.Unit>)
+  public final static buildList(Lkotlin/jvm/functions/Function1;)Ljava/util/List;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "block"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 4 L1
+    NEW java/util/ArrayList
+    DUP
+    INVOKESPECIAL java/util/ArrayList.<init> ()V
+    CHECKCAST java/util/List
+   L2
+    LINENUMBER 4 L2
+    ASTORE 1
+   L3
+    ALOAD 0
+   L4
+    LINENUMBER 5 L4
+    ALOAD 1
+    INVOKEINTERFACE kotlin/jvm/functions/Function1.invoke (Ljava/lang/Object;)Ljava/lang/Object; (itf)
+    POP
+   L5
+    LINENUMBER 6 L5
+    ALOAD 1
+    ARETURN
+   L6
+    LOCALVARIABLE list Ljava/util/List; L3 L6 1
+    LOCALVARIABLE block Lkotlin/jvm/functions/Function1; L0 L6 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 10 L0
+    GETSTATIC syntheticExamples/builder/BuilderKt$main$numbers$1.INSTANCE : LsyntheticExamples/builder/BuilderKt$main$numbers$1;
+    CHECKCAST kotlin/jvm/functions/Function1
+    INVOKESTATIC syntheticExamples/builder/BuilderKt.buildList (Lkotlin/jvm/functions/Function1;)Ljava/util/List;
+    ASTORE 0
+   L1
+    LINENUMBER 15 L1
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 0
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L2
+    LINENUMBER 16 L2
+    RETURN
+   L3
+    LOCALVARIABLE numbers Ljava/util/List; L1 L3 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/builder/BuilderKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

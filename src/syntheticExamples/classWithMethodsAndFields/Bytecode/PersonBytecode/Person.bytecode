@@ -1,0 +1,65 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/classWithMethodsAndFields/Person/Person {
+
+  // compiled from: Person.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=1, xi=82, d1={"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0006\u0010\u0008\u001a\u00020\u0009R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\n"}, d2={"LsyntheticExamples/classWithMethodsAndFields/Person/Person;", "", "name", "", "age", "", "<init>", "(Ljava/lang/String;I)V", "sayHello", "", "KotlinDecompiler"})
+
+  // access flags 0x12
+  private final Ljava/lang/String; name
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+
+  // access flags 0x12
+  private final I age
+
+  // access flags 0x1
+  public <init>(Ljava/lang/String;I)V
+    // annotable parameter count: 2 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 1
+    LDC "name"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 3 L1
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD syntheticExamples/classWithMethodsAndFields/Person/Person.name : Ljava/lang/String;
+    ALOAD 0
+    ILOAD 2
+    PUTFIELD syntheticExamples/classWithMethodsAndFields/Person/Person.age : I
+    RETURN
+   L2
+    LOCALVARIABLE this LsyntheticExamples/classWithMethodsAndFields/Person/Person; L0 L2 0
+    LOCALVARIABLE name Ljava/lang/String; L0 L2 1
+    LOCALVARIABLE age I L0 L2 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x11
+  public final sayHello()V
+   L0
+    LINENUMBER 5 L0
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0435\u043d\u044f \u0437\u043e\u0432\u0443\u0442 "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD syntheticExamples/classWithMethodsAndFields/Person/Person.name : Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L1
+    LINENUMBER 6 L1
+    RETURN
+   L2
+    LOCALVARIABLE this LsyntheticExamples/classWithMethodsAndFields/Person/Person; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+}

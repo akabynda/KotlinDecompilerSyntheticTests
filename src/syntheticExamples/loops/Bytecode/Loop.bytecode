@@ -1,0 +1,54 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/loops/LoopKt {
+
+  // compiled from: Loop.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    ICONST_0
+    ISTORE 0
+   L1
+   FRAME APPEND [I]
+    ILOAD 0
+    ICONST_5
+    IF_ICMPGE L2
+   L3
+    LINENUMBER 5 L3
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "\u0418\u0442\u0435\u0440\u0430\u0446\u0438\u044f "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 0
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L4
+    LINENUMBER 4 L4
+    IINC 0 1
+    GOTO L1
+   L2
+    LINENUMBER 7 L2
+   FRAME SAME
+    RETURN
+    LOCALVARIABLE i I L1 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/loops/LoopKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

@@ -1,0 +1,57 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/operatorOverloading/OperatorOverloadingKt {
+
+  // compiled from: OperatorOverloading.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 10 L0
+    NEW syntheticExamples/operatorOverloading/Vector
+    DUP
+    ICONST_1
+    ICONST_2
+    INVOKESPECIAL syntheticExamples/operatorOverloading/Vector.<init> (II)V
+    ASTORE 0
+   L1
+    LINENUMBER 11 L1
+    NEW syntheticExamples/operatorOverloading/Vector
+    DUP
+    ICONST_3
+    ICONST_4
+    INVOKESPECIAL syntheticExamples/operatorOverloading/Vector.<init> (II)V
+    ASTORE 1
+   L2
+    LINENUMBER 12 L2
+    ALOAD 0
+    ALOAD 1
+    INVOKEVIRTUAL syntheticExamples/operatorOverloading/Vector.plus (LsyntheticExamples/operatorOverloading/Vector;)LsyntheticExamples/operatorOverloading/Vector;
+    ASTORE 2
+   L3
+    LINENUMBER 13 L3
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 2
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L4
+    LINENUMBER 14 L4
+    RETURN
+   L5
+    LOCALVARIABLE v1 LsyntheticExamples/operatorOverloading/Vector; L1 L5 0
+    LOCALVARIABLE v2 LsyntheticExamples/operatorOverloading/Vector; L2 L5 1
+    LOCALVARIABLE v3 LsyntheticExamples/operatorOverloading/Vector; L3 L5 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/operatorOverloading/OperatorOverloadingKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

@@ -1,0 +1,48 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/lazyInitialization/LazyInitializationKt {
+
+  // compiled from: LazyInitialization.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 11 L0
+    NEW syntheticExamples/lazyInitialization/LazyInitialization
+    DUP
+    INVOKESPECIAL syntheticExamples/lazyInitialization/LazyInitialization.<init> ()V
+    ASTORE 0
+   L1
+    LINENUMBER 12 L1
+    ALOAD 0
+    INVOKEVIRTUAL syntheticExamples/lazyInitialization/LazyInitialization.getValue ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L2
+    LINENUMBER 13 L2
+    ALOAD 0
+    INVOKEVIRTUAL syntheticExamples/lazyInitialization/LazyInitialization.getValue ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L3
+    LINENUMBER 14 L3
+    RETURN
+   L4
+    LOCALVARIABLE instance LsyntheticExamples/lazyInitialization/LazyInitialization; L1 L4 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/lazyInitialization/LazyInitializationKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

@@ -1,0 +1,53 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/nothing/NothingKt {
+
+  // compiled from: Nothing.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0014\n\u0000\n\u0002\u0010\u0001\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u000e\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u0003\u001a\u0006\u0010\u0004\u001a\u00020\u0005\u00a8\u0006\u0006"}, d2={"fail", "", "message", "", "main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static fail(Ljava/lang/String;)Ljava/lang/Void;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    LDC "message"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 4 L1
+    NEW java/lang/IllegalArgumentException
+    DUP
+    ALOAD 0
+    INVOKESPECIAL java/lang/IllegalArgumentException.<init> (Ljava/lang/String;)V
+    ATHROW
+   L2
+    LOCALVARIABLE message Ljava/lang/String; L0 L2 0
+    MAXSTACK = 3
+    MAXLOCALS = 1
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 8 L0
+    LDC "An error occurred"
+    INVOKESTATIC syntheticExamples/nothing/NothingKt.fail (Ljava/lang/String;)Ljava/lang/Void;
+    POP
+    NEW kotlin/KotlinNothingValueException
+    DUP
+    INVOKESPECIAL kotlin/KotlinNothingValueException.<init> ()V
+    ATHROW
+    MAXSTACK = 2
+    MAXLOCALS = 0
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/nothing/NothingKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

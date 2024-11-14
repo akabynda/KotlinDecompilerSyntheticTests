@@ -1,0 +1,32 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/companionObject/CompanionObjectKt {
+
+  // compiled from: CompanionObject.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+  // access flags 0x19
+  public final static INNERCLASS syntheticExamples/companionObject/MyClass$Companion syntheticExamples/companionObject/MyClass Companion
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 12 L0
+    GETSTATIC syntheticExamples/companionObject/MyClass.Companion : LsyntheticExamples/companionObject/MyClass$Companion;
+    INVOKEVIRTUAL syntheticExamples/companionObject/MyClass$Companion.greet ()V
+   L1
+    LINENUMBER 13 L1
+    RETURN
+    MAXSTACK = 1
+    MAXLOCALS = 0
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/companionObject/CompanionObjectKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

@@ -1,0 +1,41 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/ifElseOperator/IfElseKt {
+
+  // compiled from: IfElse.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    BIPUSH 10
+    ISTORE 0
+   L1
+    LINENUMBER 5 L1
+    NOP
+   L2
+    LINENUMBER 6 L2
+    LDC "\u0427\u0438\u0441\u043b\u043e \u0431\u043e\u043b\u044c\u0448\u0435 5"
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L3
+    LINENUMBER 10 L3
+    RETURN
+   L4
+    LOCALVARIABLE number I L1 L4 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/ifElseOperator/IfElseKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

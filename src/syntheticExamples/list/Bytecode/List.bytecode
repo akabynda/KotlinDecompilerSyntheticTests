@@ -1,0 +1,71 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/list/ListKt {
+
+  // compiled from: List.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    ICONST_3
+    ANEWARRAY java/lang/String
+    ASTORE 1
+    ALOAD 1
+    ICONST_0
+    LDC "\u042f\u0431\u043b\u043e\u043a\u043e"
+    AASTORE
+    ALOAD 1
+    ICONST_1
+    LDC "\u0411\u0430\u043d\u0430\u043d"
+    AASTORE
+    ALOAD 1
+    ICONST_2
+    LDC "\u0412\u0438\u0448\u043d\u044f"
+    AASTORE
+    ALOAD 1
+    INVOKESTATIC kotlin/collections/CollectionsKt.listOf ([Ljava/lang/Object;)Ljava/util/List;
+    ASTORE 0
+   L1
+    LINENUMBER 5 L1
+    ALOAD 0
+    INVOKEINTERFACE java/util/List.iterator ()Ljava/util/Iterator; (itf)
+    ASTORE 1
+   L2
+   FRAME APPEND [java/util/List java/util/Iterator]
+    ALOAD 1
+    INVOKEINTERFACE java/util/Iterator.hasNext ()Z (itf)
+    IFEQ L3
+    ALOAD 1
+    INVOKEINTERFACE java/util/Iterator.next ()Ljava/lang/Object; (itf)
+    CHECKCAST java/lang/String
+    ASTORE 2
+   L4
+    LINENUMBER 6 L4
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 2
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L5
+    GOTO L2
+   L3
+    LINENUMBER 8 L3
+   FRAME SAME
+    RETURN
+   L6
+    LOCALVARIABLE fruit Ljava/lang/String; L4 L5 2
+    LOCALVARIABLE list Ljava/util/List; L1 L6 0
+    MAXSTACK = 3
+    MAXLOCALS = 3
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/list/ListKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}

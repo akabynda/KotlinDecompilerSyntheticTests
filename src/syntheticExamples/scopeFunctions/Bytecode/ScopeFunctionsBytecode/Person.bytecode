@@ -1,0 +1,369 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/scopeFunctions/Person {
+
+  // compiled from: ScopeFunctions.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=1, xi=82, d1={"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0012\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0008\u0086\u0008\u0018\u00002\u00020\u0001B!\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0003\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0009\u0010\u0013\u001a\u00020\u0003H\u00c6\u0003J\u0009\u0010\u0014\u001a\u00020\u0005H\u00c6\u0003J\u000b\u0010\u0015\u001a\u0004\u0018\u00010\u0003H\u00c6\u0003J)\u0010\u0016\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u00052\n\u0008\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u0003H\u00c6\u0001J\u0013\u0010\u0017\u001a\u00020\u00182\u0008\u0010\u0019\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003J\u0009\u0010\u001a\u001a\u00020\u0005H\u00d6\u0001J\u0009\u0010\u001b\u001a\u00020\u0003H\u00d6\u0001R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0009\u0010\n\"\u0004\u0008\u000b\u0010\u000cR\u001a\u0010\u0004\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010R\u001c\u0010\u0006\u001a\u0004\u0018\u00010\u0003X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\n\"\u0004\u0008\u0012\u0010\u000c\u00a8\u0006\u001c"}, d2={"LsyntheticExamples/scopeFunctions/Person;", "", "name", "", "age", "", "email", "<init>", "(Ljava/lang/String;ILjava/lang/String;)V", "getName", "()Ljava/lang/String;", "setName", "(Ljava/lang/String;)V", "getAge", "()I", "setAge", "(I)V", "getEmail", "setEmail", "component1", "component2", "component3", "copy", "equals", "", "other", "hashCode", "toString", "KotlinDecompiler"})
+
+  // access flags 0x2
+  private Ljava/lang/String; name
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+
+  // access flags 0x2
+  private I age
+
+  // access flags 0x2
+  private Ljava/lang/String; email
+  @Lorg/jetbrains/annotations/Nullable;() // invisible
+
+  // access flags 0x1
+  public <init>(Ljava/lang/String;ILjava/lang/String;)V
+    // annotable parameter count: 3 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 2
+   L0
+    ALOAD 1
+    LDC "name"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 3 L1
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    ALOAD 0
+    ILOAD 2
+    PUTFIELD syntheticExamples/scopeFunctions/Person.age : I
+    ALOAD 0
+    ALOAD 3
+    PUTFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    RETURN
+   L2
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L2 0
+    LOCALVARIABLE name Ljava/lang/String; L0 L2 1
+    LOCALVARIABLE age I L0 L2 2
+    LOCALVARIABLE email Ljava/lang/String; L0 L2 3
+    MAXSTACK = 2
+    MAXLOCALS = 4
+
+  // access flags 0x11
+  public final getName()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final setName(Ljava/lang/String;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+   L0
+    ALOAD 1
+    LDC "<set-?>"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+   L1
+    LINENUMBER 3 L1
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    RETURN
+   L2
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L2 0
+    LOCALVARIABLE <set-?> Ljava/lang/String; L0 L2 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x11
+  public final getAge()I
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    IRETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final setAge(I)V
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    ILOAD 1
+    PUTFIELD syntheticExamples/scopeFunctions/Person.age : I
+    RETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    LOCALVARIABLE <set-?> I L0 L1 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x11
+  public final getEmail()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/Nullable;() // invisible
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final setEmail(Ljava/lang/String;)V
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 0
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    ALOAD 1
+    PUTFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    RETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    LOCALVARIABLE <set-?> Ljava/lang/String; L0 L1 1
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x11
+  public final component1()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final component2()I
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    IRETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final component3()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/Nullable;() // invisible
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final copy(Ljava/lang/String;ILjava/lang/String;)LsyntheticExamples/scopeFunctions/Person;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+    // annotable parameter count: 3 (invisible)
+    @Lorg/jetbrains/annotations/NotNull;() // invisible, parameter 0
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 2
+   L0
+    ALOAD 1
+    LDC "name"
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.checkNotNullParameter (Ljava/lang/Object;Ljava/lang/String;)V
+    NEW syntheticExamples/scopeFunctions/Person
+    DUP
+    ALOAD 1
+    ILOAD 2
+    ALOAD 3
+    INVOKESPECIAL syntheticExamples/scopeFunctions/Person.<init> (Ljava/lang/String;ILjava/lang/String;)V
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    LOCALVARIABLE name Ljava/lang/String; L0 L1 1
+    LOCALVARIABLE age I L0 L1 2
+    LOCALVARIABLE email Ljava/lang/String; L0 L1 3
+    MAXSTACK = 5
+    MAXLOCALS = 4
+
+  // access flags 0x1009
+  public static synthetic copy$default(LsyntheticExamples/scopeFunctions/Person;Ljava/lang/String;ILjava/lang/String;ILjava/lang/Object;)LsyntheticExamples/scopeFunctions/Person;
+   L0
+    LINENUMBER 3 L0
+    ILOAD 4
+    ICONST_1
+    IAND
+    IFEQ L1
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    ASTORE 1
+   L1
+   FRAME SAME
+    ILOAD 4
+    ICONST_2
+    IAND
+    IFEQ L2
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    ISTORE 2
+   L2
+   FRAME SAME
+    ILOAD 4
+    ICONST_4
+    IAND
+    IFEQ L3
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    ASTORE 3
+   L3
+   FRAME SAME
+    ALOAD 0
+    ALOAD 1
+    ILOAD 2
+    ALOAD 3
+    INVOKEVIRTUAL syntheticExamples/scopeFunctions/Person.copy (Ljava/lang/String;ILjava/lang/String;)LsyntheticExamples/scopeFunctions/Person;
+    ARETURN
+    MAXSTACK = 4
+    MAXLOCALS = 6
+
+  // access flags 0x1
+  public toString()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Person(name="
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    LDC ", age="
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    LDC ", email="
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    BIPUSH 41
+    INVOKEVIRTUAL java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L1 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public hashCode()I
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/String.hashCode ()I
+    ISTORE 1
+   L1
+    ILOAD 1
+    BIPUSH 31
+    IMUL
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    INVOKESTATIC java/lang/Integer.hashCode (I)I
+    IADD
+    ISTORE 1
+    ILOAD 1
+    BIPUSH 31
+    IMUL
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    IFNONNULL L2
+    ICONST_0
+    GOTO L3
+   L2
+   FRAME FULL [syntheticExamples/scopeFunctions/Person I] [I]
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/String.hashCode ()I
+   L3
+   FRAME FULL [syntheticExamples/scopeFunctions/Person I] [I I]
+    IADD
+    ISTORE 1
+    ILOAD 1
+    IRETURN
+   L4
+    LOCALVARIABLE result I L1 L4 1
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L4 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public equals(Ljava/lang/Object;)Z
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    ALOAD 1
+    IF_ACMPNE L1
+    ICONST_1
+    IRETURN
+   L1
+   FRAME SAME
+    ALOAD 1
+    INSTANCEOF syntheticExamples/scopeFunctions/Person
+    IFNE L2
+    ICONST_0
+    IRETURN
+   L2
+   FRAME SAME
+    ALOAD 1
+    CHECKCAST syntheticExamples/scopeFunctions/Person
+    ASTORE 2
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    ALOAD 2
+    GETFIELD syntheticExamples/scopeFunctions/Person.name : Ljava/lang/String;
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.areEqual (Ljava/lang/Object;Ljava/lang/Object;)Z
+    IFNE L3
+    ICONST_0
+    IRETURN
+   L3
+   FRAME APPEND [syntheticExamples/scopeFunctions/Person]
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    ALOAD 2
+    GETFIELD syntheticExamples/scopeFunctions/Person.age : I
+    IF_ICMPEQ L4
+    ICONST_0
+    IRETURN
+   L4
+   FRAME SAME
+    ALOAD 0
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    ALOAD 2
+    GETFIELD syntheticExamples/scopeFunctions/Person.email : Ljava/lang/String;
+    INVOKESTATIC kotlin/jvm/internal/Intrinsics.areEqual (Ljava/lang/Object;Ljava/lang/Object;)Z
+    IFNE L5
+    ICONST_0
+    IRETURN
+   L5
+   FRAME SAME
+    ICONST_1
+    IRETURN
+   L6
+    LOCALVARIABLE this LsyntheticExamples/scopeFunctions/Person; L0 L6 0
+    LOCALVARIABLE other Ljava/lang/Object; L0 L6 1
+    MAXSTACK = 2
+    MAXLOCALS = 3
+}

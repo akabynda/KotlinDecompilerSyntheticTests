@@ -1,0 +1,225 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/destructuring/Point {
+
+  // compiled from: Destructuring.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=1, xi=82, d1={"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\n\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0000\u0008\u0086\u0008\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0009\u0010\n\u001a\u00020\u0003H\u00c6\u0003J\u0009\u0010\u000b\u001a\u00020\u0003H\u00c6\u0003J\u001d\u0010\u000c\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\r\u001a\u00020\u000e2\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003J\u0009\u0010\u0010\u001a\u00020\u0003H\u00d6\u0001J\u0009\u0010\u0011\u001a\u00020\u0012H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008R\u0011\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0009\u0010\u0008\u00a8\u0006\u0013"}, d2={"LsyntheticExamples/destructuring/Point;", "", "x", "", "y", "<init>", "(II)V", "getX", "()I", "getY", "component1", "component2", "copy", "equals", "", "other", "hashCode", "toString", "", "KotlinDecompiler"})
+
+  // access flags 0x12
+  private final I x
+
+  // access flags 0x12
+  private final I y
+
+  // access flags 0x1
+  public <init>(II)V
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    ALOAD 0
+    ILOAD 1
+    PUTFIELD syntheticExamples/destructuring/Point.x : I
+    ALOAD 0
+    ILOAD 2
+    PUTFIELD syntheticExamples/destructuring/Point.y : I
+    RETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    LOCALVARIABLE x I L0 L1 1
+    LOCALVARIABLE y I L0 L1 2
+    MAXSTACK = 2
+    MAXLOCALS = 3
+
+  // access flags 0x11
+  public final getX()I
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    IRETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final getY()I
+   L0
+    LINENUMBER 3 L0
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    IRETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final component1()I
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    IRETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final component2()I
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    IRETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x11
+  public final copy(II)LsyntheticExamples/destructuring/Point;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    NEW syntheticExamples/destructuring/Point
+    DUP
+    ILOAD 1
+    ILOAD 2
+    INVOKESPECIAL syntheticExamples/destructuring/Point.<init> (II)V
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    LOCALVARIABLE x I L0 L1 1
+    LOCALVARIABLE y I L0 L1 2
+    MAXSTACK = 4
+    MAXLOCALS = 3
+
+  // access flags 0x1009
+  public static synthetic copy$default(LsyntheticExamples/destructuring/Point;IIILjava/lang/Object;)LsyntheticExamples/destructuring/Point;
+   L0
+    LINENUMBER 3 L0
+    ILOAD 3
+    ICONST_1
+    IAND
+    IFEQ L1
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    ISTORE 1
+   L1
+   FRAME SAME
+    ILOAD 3
+    ICONST_2
+    IAND
+    IFEQ L2
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    ISTORE 2
+   L2
+   FRAME SAME
+    ALOAD 0
+    ILOAD 1
+    ILOAD 2
+    INVOKEVIRTUAL syntheticExamples/destructuring/Point.copy (II)LsyntheticExamples/destructuring/Point;
+    ARETURN
+    MAXSTACK = 3
+    MAXLOCALS = 5
+
+  // access flags 0x1
+  public toString()Ljava/lang/String;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Point(x="
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    LDC ", y="
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    BIPUSH 41
+    INVOKEVIRTUAL java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    ARETURN
+   L1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L1 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1
+  public hashCode()I
+   L0
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    INVOKESTATIC java/lang/Integer.hashCode (I)I
+    ISTORE 1
+   L1
+    ILOAD 1
+    BIPUSH 31
+    IMUL
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    INVOKESTATIC java/lang/Integer.hashCode (I)I
+    IADD
+    ISTORE 1
+    ILOAD 1
+    IRETURN
+   L2
+    LOCALVARIABLE result I L1 L2 1
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L2 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1
+  public equals(Ljava/lang/Object;)Z
+    // annotable parameter count: 1 (invisible)
+    @Lorg/jetbrains/annotations/Nullable;() // invisible, parameter 0
+   L0
+    ALOAD 0
+    ALOAD 1
+    IF_ACMPNE L1
+    ICONST_1
+    IRETURN
+   L1
+   FRAME SAME
+    ALOAD 1
+    INSTANCEOF syntheticExamples/destructuring/Point
+    IFNE L2
+    ICONST_0
+    IRETURN
+   L2
+   FRAME SAME
+    ALOAD 1
+    CHECKCAST syntheticExamples/destructuring/Point
+    ASTORE 2
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    ALOAD 2
+    GETFIELD syntheticExamples/destructuring/Point.x : I
+    IF_ICMPEQ L3
+    ICONST_0
+    IRETURN
+   L3
+   FRAME APPEND [syntheticExamples/destructuring/Point]
+    ALOAD 0
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    ALOAD 2
+    GETFIELD syntheticExamples/destructuring/Point.y : I
+    IF_ICMPEQ L4
+    ICONST_0
+    IRETURN
+   L4
+   FRAME SAME
+    ICONST_1
+    IRETURN
+   L5
+    LOCALVARIABLE this LsyntheticExamples/destructuring/Point; L0 L5 0
+    LOCALVARIABLE other Ljava/lang/Object; L0 L5 1
+    MAXSTACK = 2
+    MAXLOCALS = 3
+}

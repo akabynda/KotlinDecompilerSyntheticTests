@@ -1,0 +1,146 @@
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/result/ResultKt {
+
+  // compiled from: Result.kt
+
+  @Lkotlin/Metadata;(mv={2, 0, 0}, k=2, xi=82, d1={"\u0000\u0014\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0000\u001a\u0019\u0010\u0000\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0002\u0010\u0004\u001a\u0006\u0010\u0005\u001a\u00020\u0006\u00a8\u0006\u0007"}, d2={"getResult", "Lkotlin/Result;", "", "value", "(I)Ljava/lang/Object;", "main", "", "KotlinDecompiler"})
+  // access flags 0x19
+  public final static INNERCLASS kotlin/Result$Companion kotlin/Result Companion
+
+  // access flags 0x19
+  public final static getResult(I)Ljava/lang/Object;
+  @Lorg/jetbrains/annotations/NotNull;() // invisible
+   L0
+    LINENUMBER 4 L0
+    ILOAD 0
+    IFLE L1
+   L2
+    LINENUMBER 5 L2
+    GETSTATIC kotlin/Result.Companion : Lkotlin/Result$Companion;
+    POP
+    ILOAD 0
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+    INVOKESTATIC kotlin/Result.constructor-impl (Ljava/lang/Object;)Ljava/lang/Object;
+    GOTO L3
+   L1
+    LINENUMBER 7 L1
+   FRAME SAME
+    GETSTATIC kotlin/Result.Companion : Lkotlin/Result$Companion;
+    POP
+    NEW java/lang/Exception
+    DUP
+    LDC "Value must be positive"
+    INVOKESPECIAL java/lang/Exception.<init> (Ljava/lang/String;)V
+    CHECKCAST java/lang/Throwable
+    INVOKESTATIC kotlin/ResultKt.createFailure (Ljava/lang/Throwable;)Ljava/lang/Object;
+    INVOKESTATIC kotlin/Result.constructor-impl (Ljava/lang/Object;)Ljava/lang/Object;
+   L3
+    LINENUMBER 4 L3
+   FRAME SAME1 java/lang/Object
+    ARETURN
+   L4
+    LOCALVARIABLE value I L0 L4 0
+    MAXSTACK = 3
+    MAXLOCALS = 1
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 12 L0
+    ICONST_M1
+    INVOKESTATIC syntheticExamples/result/ResultKt.getResult (I)Ljava/lang/Object;
+    ASTORE 0
+   L1
+    LINENUMBER 13 L1
+    ALOAD 0
+    ASTORE 1
+    ALOAD 1
+    INVOKESTATIC kotlin/Result.isSuccess-impl (Ljava/lang/Object;)Z
+    IFEQ L2
+    ALOAD 1
+    CHECKCAST java/lang/Number
+    INVOKEVIRTUAL java/lang/Number.intValue ()I
+    ISTORE 2
+   L3
+    ICONST_0
+    ISTORE 3
+   L4
+    LINENUMBER 14 L4
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Success: "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 2
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L5
+    LINENUMBER 15 L5
+    NOP
+   L2
+    LINENUMBER 13 L2
+   FRAME APPEND [java/lang/Object java/lang/Object]
+    ALOAD 1
+    ASTORE 1
+   L6
+    LINENUMBER 15 L6
+    ALOAD 1
+    INVOKESTATIC kotlin/Result.exceptionOrNull-impl (Ljava/lang/Object;)Ljava/lang/Throwable;
+    DUP
+    IFNULL L7
+    ASTORE 2
+    ALOAD 2
+    ASTORE 3
+   L8
+    ICONST_0
+    ISTORE 4
+   L9
+    LINENUMBER 16 L9
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Error: "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ALOAD 3
+    INVOKEVIRTUAL java/lang/Throwable.getMessage ()Ljava/lang/String;
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L10
+    LINENUMBER 17 L10
+    NOP
+   L11
+    LINENUMBER 15 L11
+    GOTO L12
+   L7
+   FRAME SAME1 java/lang/Throwable
+    POP
+   L12
+    LINENUMBER 18 L12
+   FRAME SAME
+    RETURN
+   L13
+    LOCALVARIABLE $i$a$-onSuccess-ResultKt$main$1 I L4 L2 3
+    LOCALVARIABLE it I L3 L2 2
+    LOCALVARIABLE $i$a$-onFailure-ResultKt$main$2 I L9 L11 4
+    LOCALVARIABLE it Ljava/lang/Throwable; L8 L11 3
+    LOCALVARIABLE result Ljava/lang/Object; L1 L13 0
+    MAXSTACK = 2
+    MAXLOCALS = 5
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/result/ResultKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}
