@@ -1,8 +1,8 @@
-### Сравнительная Таблица Результатов
+### Сравнительная таблица результатов
 
-| **Декомпилятор \ Конвертер** | **ChatGPT** | **CodeConvert** | **J2K**    |
-|------------------------------|-------------|-----------------|------------|
-| **CFR**                      |             |                 |            |
-| **Fernflower**               |             |                 |            |
-| **JD-GUI**                   |             |                 |            |
-| **Байт-код**                 | -           | Лимит           | Невозможно |
+| **Декомпилятор \ Конвертер** | **ChatGPT**                                                                                                                                                      | **CodeConvert** | **J2K**                                                                                                                                                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Байт-код**                 | - Восстановлен `data class` с полями `name: String`, `age: Int`.<br>- Сгенерированы методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`. |                 |                                                                                                                                                                                                         |
+| **CFR**                      | - Восстановлен `data class` с полями `name: String`, `age: Int`.<br>- Сгенерированы методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`. |                 | - Код содержит вызовы `Intrinsics.checkNotNullParameter` в конструкторе и методе `copy`.<br>- Присутствуют сгенерированные методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`. |
+| **Fernflower**               | - Восстановлен `data class` с полями `name: String`, `age: Int`.<br>- Сгенерированы методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`. |                 | - Код содержит вызовы `Intrinsics.checkNotNullParameter` в конструкторе и методе `copy`.<br>- Присутствуют сгенерированные методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`. |
+| **JD-GUI**                   | - Восстановлен `data class` с полями `name: String`, `age: Int`.<br>- Сгенерированы методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`. |                 | - Код содержит вызов `Intrinsics.checkNotNullParameter` в методе `copy`.<br>- Присутствуют сгенерированные методы `copy`, `component1`, `component2`, `toString`, `hashCode`, `equals`.                 |
