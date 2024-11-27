@@ -36,3 +36,4 @@ bin/
 /tools/template.txt
 /.idea/
 /.idea/misc.xml
+/src/tools/DirTreeReadme.kt
