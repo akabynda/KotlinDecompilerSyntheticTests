@@ -1,0 +1,56 @@
+buildscript {
+    ext {
+        // SDK
+        sdkCompileVersion = 34
+        sdkMinVersion = 24
+        sdkTargetVersion = 34
+    }
+
+    repositories {
+        google()
+        maven { url "https://plugins.gradle.org/m2/" }
+    }
+
+    dependencies {
+        classpath libs.android.gradlePlugin
+        classpath libs.kotlin.gradlePlugin
+        classpath libs.ktlint.gradlePlugin
+    }
+}
+
+plugins {
+    alias libs.plugins.sonarqube
+    alias libs.plugins.ksp apply false
+    alias libs.plugins.detekt
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+
+subprojects {
+    apply plugin: "com.google.devtools.ksp"
+    apply plugin: "org.jlleitschuh.gradle.ktlint"
+    apply plugin: "org.sonarqube"
+    apply plugin: "io.gitlab.arturbosch.detekt"
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "owncloud_android"
+        property "sonar.organization", "owncloud-1"
+        property "sonar.projectVersion", getBranchName()
+        property "sonar.host.url", "https://sonarcloud.io"
+    }
+}
+
+def getBranchName() {
+    def name = "git rev-parse --abbrev-ref HEAD".execute()
+    return name.text.toString().trim()
+}

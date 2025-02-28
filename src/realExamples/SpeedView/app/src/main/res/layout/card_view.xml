@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="#e2e2e2">
+
+    <com.github.anastr.speedviewlib.SpeedView
+        android:id="@+id/speedometer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        app:sv_speedometerWidth="24dp"
+        app:sv_centerCircleRadius="16dp"
+        app:sv_speedTextFormat="INTEGER"
+        app:sv_speedTextSize="11sp"
+        app:sv_unitTextSize="8sp"/>
+
+</androidx.cardview.widget.CardView>
