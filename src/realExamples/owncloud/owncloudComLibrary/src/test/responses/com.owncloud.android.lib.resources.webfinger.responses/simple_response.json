@@ -1,9 +1,0 @@
-{
-  "links": [
-    {
-      "href": "https://gast.somedomain.de",
-      "rel": "http://webfinger.owncloud/rel/server-instance"
-    }
-  ],
-  "subject": "acct:peter.sine@gurken.xxx"
-}
