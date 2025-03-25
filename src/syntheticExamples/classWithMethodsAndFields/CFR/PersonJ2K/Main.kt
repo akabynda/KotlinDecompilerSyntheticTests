@@ -1,6 +1,6 @@
 package syntheticExamples.classWithMethodsAndFields.CFR.PersonJ2K
 
-import syntheticExamples.classWithMethodsAndFields.Person.Person
+import syntheticExamples.classWithMethodsAndFields.Person
 
 /*
 @Metadata(

@@ -1,0 +1,20 @@
+package syntheticExamples.abruptControlFlow.JDGUI;
+
+import kotlin.Metadata;
+
+@Metadata(mv = {1, 9, 0}, k = 2, xi = 48, d1 = {"\000\b\n\000\n\002\020\002\n\000\032\006\020\000\032\0020\001\006\002"}, d2 = {"main", "", "KotlinDecompiler"})
+public final class AbruptControlFlowDecompiled {
+    public static final void main() {
+        for (int i = 1; i < 11; i++) {
+            if (i == 5) {
+                System.out.println("Breaking the loop at " + i);
+                break;
+            }
+            if (i % 2 == 0) {
+                System.out.println("Skipping even number: " + i);
+            } else {
+                System.out.println("Current value: " + i);
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+// ================syntheticExamples/abruptControlFlow/AbruptControlFlowKt.class =================
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/abruptControlFlow/AbruptControlFlowKt {
+
+  // compiled from: AbruptControlFlow.kt
+
+  @Lkotlin/Metadata;(mv={1, 9, 0}, k=2, xi=48, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    ICONST_1
+    ISTORE 0
+   L1
+   FRAME APPEND [I]
+    ILOAD 0
+    BIPUSH 11
+    IF_ICMPLT L2
+    NOP
+    GOTO L3
+   L2
+    LINENUMBER 5 L2
+   FRAME SAME
+    ILOAD 0
+    ICONST_5
+    IF_ICMPNE L4
+   L5
+    LINENUMBER 6 L5
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Breaking the loop at "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 0
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    INVOKESTATIC kotlin/io/ConsoleKt.println (Ljava/lang/Object;)V
+   L6
+    LINENUMBER 7 L6
+    NOP
+    GOTO L3
+   L4
+    LINENUMBER 9 L4
+   FRAME SAME
+    ILOAD 0
+    ICONST_2
+    IREM
+    IFNE L7
+   L8
+    LINENUMBER 10 L8
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Skipping even number: "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 0
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    INVOKESTATIC kotlin/io/ConsoleKt.println (Ljava/lang/Object;)V
+   L9
+    LINENUMBER 11 L9
+    NOP
+    GOTO L10
+   L7
+    LINENUMBER 13 L7
+   FRAME SAME
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Current value: "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 0
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    INVOKESTATIC kotlin/io/ConsoleKt.println (Ljava/lang/Object;)V
+   L10
+    LINENUMBER 4 L10
+   FRAME SAME
+    IINC 0 1
+    ILOAD 0
+    POP
+    NOP
+    GOTO L1
+   L3
+    LINENUMBER 15 L3
+   FRAME SAME
+    NOP
+    RETURN
+    LOCALVARIABLE i I L1 L3 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/abruptControlFlow/AbruptControlFlowKt.main ()V
+    NOP
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}
+
+
