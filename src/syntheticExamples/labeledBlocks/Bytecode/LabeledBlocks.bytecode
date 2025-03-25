@@ -1,0 +1,115 @@
+// ================syntheticExamples/labeledBlocks/LabeledBlocksKt.class =================
+// class version 52.0 (52)
+// access flags 0x31
+public final class syntheticExamples/labeledBlocks/LabeledBlocksKt {
+
+  // compiled from: LabeledBlocks.kt
+
+  @Lkotlin/Metadata;(mv={1, 9, 0}, k=2, xi=48, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "KotlinDecompiler"})
+
+  // access flags 0x19
+  public final static main()V
+   L0
+    LINENUMBER 4 L0
+    ICONST_1
+    ISTORE 0
+   L1
+   FRAME APPEND [I]
+    ILOAD 0
+    BIPUSH 6
+    IF_ICMPLT L2
+    NOP
+    GOTO L3
+   L2
+    LINENUMBER 5 L2
+   FRAME SAME
+    ICONST_1
+    ISTORE 1
+   L4
+   FRAME APPEND [I]
+    ILOAD 1
+    BIPUSH 6
+    IF_ICMPLT L5
+    NOP
+    GOTO L6
+   L5
+    LINENUMBER 6 L5
+   FRAME SAME
+    ILOAD 0
+    ILOAD 1
+    IMUL
+    BIPUSH 6
+    IF_ICMPLE L7
+   L8
+    LINENUMBER 7 L8
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "Breaking out of the outer loop at i = "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 0
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    LDC ", j = "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 1
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    INVOKESTATIC kotlin/io/ConsoleKt.println (Ljava/lang/Object;)V
+   L9
+    LINENUMBER 8 L9
+    NOP
+    GOTO L3
+   L7
+    LINENUMBER 10 L7
+   FRAME SAME
+    NEW java/lang/StringBuilder
+    DUP
+    INVOKESPECIAL java/lang/StringBuilder.<init> ()V
+    LDC "i = "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 0
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    LDC ", j = "
+    INVOKEVIRTUAL java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;
+    ILOAD 1
+    INVOKEVIRTUAL java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;
+    INVOKEVIRTUAL java/lang/StringBuilder.toString ()Ljava/lang/String;
+    INVOKESTATIC kotlin/io/ConsoleKt.println (Ljava/lang/Object;)V
+   L10
+    LINENUMBER 5 L10
+    IINC 1 1
+    ILOAD 1
+    POP
+    NOP
+    GOTO L4
+   L6
+    LINENUMBER 4 L6
+   FRAME SAME
+    IINC 0 1
+    ILOAD 0
+    POP
+    NOP
+    GOTO L1
+   L3
+    LINENUMBER 13 L3
+   FRAME CHOP 1
+    NOP
+    RETURN
+    LOCALVARIABLE j I L4 L6 1
+    LOCALVARIABLE i I L1 L3 0
+    MAXSTACK = 2
+    MAXLOCALS = 2
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+   L0
+    INVOKESTATIC syntheticExamples/labeledBlocks/LabeledBlocksKt.main ()V
+    NOP
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+}
+
+
