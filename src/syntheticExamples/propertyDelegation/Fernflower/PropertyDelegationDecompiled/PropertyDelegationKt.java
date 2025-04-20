@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class PropertyDelegationKt {
-    public static final void main() {
+    public static void main() {
         User user = new User();
         user.setName("Alice");
         user.setName("Bob");

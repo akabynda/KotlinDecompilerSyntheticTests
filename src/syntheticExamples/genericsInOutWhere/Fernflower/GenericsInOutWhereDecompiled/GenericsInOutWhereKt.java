@@ -12,15 +12,15 @@ import org.jetbrains.annotations.NotNull;
         d2 = {"main", "", "performTransformation", "R", "T", "", "value", "transformer", "LsyntheticExamples/genericsInOutWhere/Fernflower/GenericsInOutWhereDecompiled/Transformer;", "(Ljava/lang/CharSequence;LsyntheticExamples/genericsInOutWhere/Fernflower/GenericsInOutWhereDecompiled/Transformer;)Ljava/lang/Object;", "KotlinDecompiler"}
 )
 public final class GenericsInOutWhereKt {
-    public static final Object performTransformation(@NotNull CharSequence value, @NotNull Transformer transformer) {
+    public static Object performTransformation(@NotNull CharSequence value, @NotNull Transformer transformer) {
         Intrinsics.checkNotNullParameter(value, "value");
         Intrinsics.checkNotNullParameter(transformer, "transformer");
         return transformer.transform(value);
     }
 
-    public static final void main() {
-        Transformer transformer = (Transformer)(new StringToIntTransformer());
-        Number result = (Number)performTransformation((CharSequence)"Hello, World!", transformer);
+    public static void main() {
+        Transformer transformer = new StringToIntTransformer();
+        Number result = (Number) performTransformation("Hello, World!", transformer);
         String var2 = "Result: " + result;
         System.out.println(var2);
     }

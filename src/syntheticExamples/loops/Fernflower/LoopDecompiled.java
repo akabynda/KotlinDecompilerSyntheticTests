@@ -10,8 +10,8 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class LoopDecompiled {
-    public static final void main() {
-        for(int i = 0; i < 5; ++i) {
+    public static void main() {
+        for (int i = 0; i < 5; ++i) {
             String var1 = "Итерация " + i;
             System.out.println(var1);
         }

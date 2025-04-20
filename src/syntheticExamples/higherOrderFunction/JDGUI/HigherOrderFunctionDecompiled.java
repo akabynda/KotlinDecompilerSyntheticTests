@@ -1,9 +1,5 @@
 package syntheticExamples.higherOrderFunction.JDGUI;
 
-import kotlin.Metadata;
-import kotlin.jvm.functions.Function1;
-import kotlin.jvm.internal.Lambda;
-
 //'kotlin. Function' cannot be inherited as a raw type and with generic type arguments 'java. lang. Integer'
 
 /*

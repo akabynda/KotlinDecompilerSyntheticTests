@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class OperatorOverloadingKt {
-    public static final void main() {
+    public static void main() {
         Vector v1 = new Vector(1, 2);
         Vector v2 = new Vector(3, 4);
         Vector v3 = v1.plus(v2);

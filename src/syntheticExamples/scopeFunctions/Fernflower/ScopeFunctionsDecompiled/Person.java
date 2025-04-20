@@ -27,53 +27,6 @@ public final class Person {
         this.email = email;
     }
 
-    @NotNull
-    public final String getName() {
-        return this.name;
-    }
-
-    public final void setName(@NotNull String var1) {
-        Intrinsics.checkNotNullParameter(var1, "<set-?>");
-        this.name = var1;
-    }
-
-    public final int getAge() {
-        return this.age;
-    }
-
-    public final void setAge(int var1) {
-        this.age = var1;
-    }
-
-    @Nullable
-    public final String getEmail() {
-        return this.email;
-    }
-
-    public final void setEmail(@Nullable String var1) {
-        this.email = var1;
-    }
-
-    @NotNull
-    public final String component1() {
-        return this.name;
-    }
-
-    public final int component2() {
-        return this.age;
-    }
-
-    @Nullable
-    public final String component3() {
-        return this.email;
-    }
-
-    @NotNull
-    public final Person copy(@NotNull String name, int age, @Nullable String email) {
-        Intrinsics.checkNotNullParameter(name, "name");
-        return new Person(name, age, email);
-    }
-
     // $FF: synthetic method
     public static Person copy$default(Person var0, String var1, int var2, String var3, int var4, Object var5) {
         if ((var4 & 1) != 0) {
@@ -92,6 +45,53 @@ public final class Person {
     }
 
     @NotNull
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(@NotNull String var1) {
+        Intrinsics.checkNotNullParameter(var1, "<set-?>");
+        this.name = var1;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setAge(int var1) {
+        this.age = var1;
+    }
+
+    @Nullable
+    public String getEmail() {
+        return this.email;
+    }
+
+    public void setEmail(@Nullable String var1) {
+        this.email = var1;
+    }
+
+    @NotNull
+    public String component1() {
+        return this.name;
+    }
+
+    public int component2() {
+        return this.age;
+    }
+
+    @Nullable
+    public String component3() {
+        return this.email;
+    }
+
+    @NotNull
+    public Person copy(@NotNull String name, int age, @Nullable String email) {
+        Intrinsics.checkNotNullParameter(name, "name");
+        return new Person(name, age, email);
+    }
+
+    @NotNull
     public String toString() {
         return "Person(name=" + this.name + ", age=" + this.age + ", email=" + this.email + ')';
     }
@@ -106,10 +106,9 @@ public final class Person {
     public boolean equals(@Nullable Object other) {
         if (this == other) {
             return true;
-        } else if (!(other instanceof Person)) {
+        } else if (!(other instanceof Person var2)) {
             return false;
         } else {
-            Person var2 = (Person)other;
             if (!Intrinsics.areEqual(this.name, var2.name)) {
                 return false;
             } else if (this.age != var2.age) {

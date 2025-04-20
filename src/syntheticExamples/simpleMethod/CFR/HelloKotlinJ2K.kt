@@ -1,4 +1,5 @@
 package syntheticExamples.simpleMethod.CFR
+
 /*
 @Metadata(
     mv = [2, 0, 0],

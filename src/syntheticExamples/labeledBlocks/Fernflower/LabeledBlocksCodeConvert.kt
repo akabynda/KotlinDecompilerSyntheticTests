@@ -1,1 +1,1 @@
-package syntheticExamples.labeledBlocks.Fernflower;
+package syntheticExamples.labeledBlocks.Fernflower

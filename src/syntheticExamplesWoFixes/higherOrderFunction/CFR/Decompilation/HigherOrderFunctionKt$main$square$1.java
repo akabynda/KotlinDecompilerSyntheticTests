@@ -1,6 +1,6 @@
 /*
  * Decompiled with CFR 0.152.
- * 
+ *
  * Could not load the following classes:
  *  kotlin.Metadata
  *  kotlin.jvm.functions.Function1
@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 static final class HigherOrderFunctionKt.main.square.1
 extends Lambda
 implements Function1<Integer, Integer> {
-    public static final HigherOrderFunctionKt.main.square.1 INSTANCE = new /* invalid duplicate definition of identical inner class */;
+    public static final HigherOrderFunctionKt.main.square.1 INSTANCE = new /* invalid duplicate definition of identical inner class */
 /*
     HigherOrderFunctionKt.main.square.1() {
     }

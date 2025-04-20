@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class GenericKt {
-    public static final void main() {
+    public static void main() {
         Box box = new Box("Hello");
         Object var1 = box.getValue();
         System.out.println(var1);

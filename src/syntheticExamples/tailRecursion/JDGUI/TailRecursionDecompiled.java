@@ -1,7 +1,5 @@
 package syntheticExamples.tailRecursion.JDGUI;
 
-import kotlin.Metadata;
-
 // doesn't work
 
 /*

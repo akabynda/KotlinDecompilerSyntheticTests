@@ -39,7 +39,7 @@ class Person(var name: String, var age: Int, var email: String?) {
                 this.name,
                 person.name
             )
-        ) false else (if ((this.age != person.age)) false else (!!Intrinsics.areEqual(
+        ) false else (if ((this.age != person.age)) false else (Intrinsics.areEqual(
             this.email, person.email
         )))
     }

@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
 )
 public final class MyClass {
     @NotNull
-    public static final Companion Companion = new Companion((DefaultConstructorMarker)null);
+    public static final Companion Companion = new Companion(null);
 
     @Metadata(
             mv = {2, 0, 0},
@@ -26,14 +26,14 @@ public final class MyClass {
         private Companion() {
         }
 
-        public final void greet() {
-            String var1 = "Hello from companion object!";
-            System.out.println(var1);
-        }
-
         // $FF: synthetic method
         public Companion(DefaultConstructorMarker $constructor_marker) {
             this();
+        }
+
+        public void greet() {
+            String var1 = "Hello from companion object!";
+            System.out.println(var1);
         }
     }
 }

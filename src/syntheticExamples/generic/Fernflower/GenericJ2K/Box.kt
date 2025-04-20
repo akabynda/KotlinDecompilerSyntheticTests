@@ -9,7 +9,7 @@ package syntheticExamples.generic.Fernflower.GenericJ2K
     d2 = ["LsyntheticExamples/generic/Box;", "T", "", "value", "(Ljava/lang/Object;)V", "getValue", "()Ljava/lang/Object;", "Ljava/lang/Object;", "KotlinDecompiler"]
 )
  */
-final class Box {
+class Box {
     var value: Any? = null
 
     fun Box(value: Any?) {

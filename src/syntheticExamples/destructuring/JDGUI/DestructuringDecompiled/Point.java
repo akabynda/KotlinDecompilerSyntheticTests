@@ -15,24 +15,24 @@ public final class Point {
         this.y = y;
     }
 
-    public final int getX() {
+    public int getX() {
         return this.x;
     }
 
-    public final int getY() {
+    public int getY() {
         return this.y;
     }
 
-    public final int component1() {
+    public int component1() {
         return this.x;
     }
 
-    public final int component2() {
+    public int component2() {
         return this.y;
     }
 
     @NotNull
-    public final Point copy(int x, int y) {
+    public Point copy(int x, int y) {
         return new Point(x, y);
     }
 
@@ -49,9 +49,8 @@ public final class Point {
     public boolean equals(@Nullable Object other) {
         if (this == other)
             return true;
-        if (!(other instanceof Point))
+        if (!(other instanceof Point point))
             return false;
-        Point point = (Point)other;
-        return (this.x != point.x) ? false : (!(this.y != point.y));
+        return this.x == point.x && (this.y == point.y);
     }
 }

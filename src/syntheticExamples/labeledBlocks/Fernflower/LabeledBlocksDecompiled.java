@@ -10,9 +10,9 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class LabeledBlocksDecompiled {
-    public static final void main() {
-        for(int i = 1; i < 6; ++i) {
-            for(int j = 1; j < 6; ++j) {
+    public static void main() {
+        for (int i = 1; i < 6; ++i) {
+            for (int j = 1; j < 6; ++j) {
                 String var2;
                 if (i * j > 6) {
                     var2 = "Breaking out of the outer loop at i = " + i + ", j = " + j;

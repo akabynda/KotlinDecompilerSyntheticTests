@@ -1,6 +1,6 @@
 package syntheticExamples.labeledBlocks.CFR
 
-object LabeledBlocks{
+object LabeledBlocks {
     fun main() {
         block0@ for (i in 1..5) {
             for (j in 1..5) {

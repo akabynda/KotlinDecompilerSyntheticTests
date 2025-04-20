@@ -1,6 +1,6 @@
 /*
  * Decompiled with CFR 0.152.
- * 
+ *
  * Could not load the following classes:
  *  kotlin.Metadata
  *  kotlin.Unit
@@ -8,7 +8,7 @@
  *  kotlin.jvm.internal.Intrinsics
  *  kotlin.jvm.internal.Lambda
  *  org.jetbrains.annotations.NotNull
-*/
+ */
 /*
 package syntheticExamplesWoFixes.builder.CFR.Decompilation.BuilderKt$main$numbers$1;
 
@@ -24,7 +24,7 @@ import org.jetbrains.annotations.NotNull;
 static final class BuilderKt.main.numbers.1
 extends Lambda
 implements Function1<List<Integer>, Unit> {
-    public static final BuilderKt.main.numbers.1 INSTANCE = new /* invalid duplicate definition of identical inner class */;
+    public static final BuilderKt.main.numbers.1 INSTANCE = new /* invalid duplicate definition of identical inner class */
 /*
     BuilderKt.main.numbers.1() {
     }

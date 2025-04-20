@@ -1,6 +1,7 @@
 package syntheticExamples.companionObject.Fernflower.CompanionObjectJ2K
 
 import kotlin.jvm.internal.DefaultConstructorMarker
+
 /*
 @Metadata(
     mv = [2, 0, 0],

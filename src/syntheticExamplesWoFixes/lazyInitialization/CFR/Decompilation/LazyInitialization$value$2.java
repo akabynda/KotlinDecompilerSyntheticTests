@@ -1,6 +1,6 @@
 /*
  * Decompiled with CFR 0.152.
- * 
+ *
  * Could not load the following classes:
  *  kotlin.Metadata
  *  kotlin.jvm.functions.Function0
@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 static final class LazyInitialization.value.2
 extends Lambda
 implements Function0<String> {
-    public static final LazyInitialization.value.2 INSTANCE = new /* invalid duplicate definition of identical inner class */;
+    public static final LazyInitialization.value.2 INSTANCE = new /* invalid duplicate definition of identical inner class */
 /*
     LazyInitialization.value.2() {
     }

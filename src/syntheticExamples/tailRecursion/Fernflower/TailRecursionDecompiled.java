@@ -10,8 +10,8 @@ import kotlin.Metadata;
         d2 = {"main", "", "sum", "", "n", "acc", "KotlinDecompiler"}
 )
 public final class TailRecursionDecompiled {
-    public static final int sum(int n, int acc) {
-        while(n != 0) {
+    public static int sum(int n, int acc) {
+        while (n != 0) {
             int var2 = n - 1;
             int var3 = acc + n;
             n = var2;
@@ -30,8 +30,8 @@ public final class TailRecursionDecompiled {
         return sum(var0, var1);
     }
 
-    public static final void main() {
-        int var0 = sum$default(10000, 0, 2, (Object)null);
+    public static void main() {
+        int var0 = sum$default(10000, 0, 2, null);
         System.out.println(var0);
     }
 

@@ -23,7 +23,7 @@ public final class Person {
         this.age = age;
     }
 
-    public final void sayHello() {
+    public void sayHello() {
         String var1 = "Привет, меня зовут " + this.name;
         System.out.println(var1);
     }

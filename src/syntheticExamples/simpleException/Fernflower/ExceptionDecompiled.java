@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class ExceptionDecompiled {
-    public static final void main() {
+    public static void main() {
         try {
             int var0 = 10 / 0;
         } catch (ArithmeticException var2) {

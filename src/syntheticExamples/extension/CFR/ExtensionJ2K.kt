@@ -1,6 +1,7 @@
 package syntheticExamples.extension.CFR
 
 import kotlin.jvm.internal.Intrinsics
+
 /*
 @Metadata(
     mv = [2, 0, 0],

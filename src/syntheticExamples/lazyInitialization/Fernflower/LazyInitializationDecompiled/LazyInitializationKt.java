@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class LazyInitializationKt {
-    public static final void main() {
+    public static void main() {
         LazyInitialization instance = new LazyInitialization();
         String var1 = instance.getValue();
         System.out.println(var1);

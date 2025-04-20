@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class HigherOrderFunctionDecompiled {
-    public static final void main() {
+    public static void main() {
         // Function1 square = HigherOrderFunctionDecompiled::main$lambda$0;
         // int result = ((Number)square.invoke(5)).intValue();
 
@@ -24,7 +24,7 @@ public final class HigherOrderFunctionDecompiled {
     }
 
     // private static final int main$lambda$0(int it) {
-    private static final int square(int it) {
+    private static int square(int it) {
         return it * it;
     }
 }

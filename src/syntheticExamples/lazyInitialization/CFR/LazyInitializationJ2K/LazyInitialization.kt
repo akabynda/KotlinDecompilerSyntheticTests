@@ -1,7 +1,5 @@
 package syntheticExamples.lazyInitialization.CFR.LazyInitializationJ2K
 
-import kotlin.jvm.functions.Function0
-
 /*
 @Metadata(
     mv = [2, 0, 0],

@@ -10,8 +10,8 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class ScopeFunctionsKt {
-    public static final void main() {
-        Person person = new Person("Unknown", 0, (String)null);
+    public static void main() {
+        Person person = new Person("Unknown", 0, null);
         Person $this$main_u24lambda_u240 = person;
         boolean var4 = false;
         $this$main_u24lambda_u240.setName("Alice");

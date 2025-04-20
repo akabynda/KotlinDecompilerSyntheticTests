@@ -1,4 +1,4 @@
-package syntheticExamples.nullValueSafety.JDGUI;
+package syntheticExamples.nullValueSafety.JDGUI
 
 object NullValueSafetyJ2K {
     fun main() {

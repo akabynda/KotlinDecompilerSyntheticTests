@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class NullValueSafetyDecompiled {
-    public static final void main() {
+    public static void main() {
         String text = null;
         Object var1 = null;
         System.out.println(var1);

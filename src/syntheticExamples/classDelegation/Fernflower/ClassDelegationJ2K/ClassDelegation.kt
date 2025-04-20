@@ -19,6 +19,6 @@ object ClassDelegation {
     // $FF: synthetic method
     @JvmStatic
     fun main(args: Array<String>) {
-        ClassDelegation.main()
+        main()
     }
 }

@@ -16,16 +16,16 @@ public final class LazyInitialization {
     @NotNull
     private final Lazy value$delegate = LazyKt.lazy(LazyInitialization::value_delegate);
 
-    @NotNull
-    public final String getValue() {
-        Lazy var1 = this.value$delegate;
-        Object var2 = null;
-        return (String)var1.getValue();
-    }
-
-    private static final String value_delegate() {
+    private static String value_delegate() {
         String var0 = "Initializing";
         System.out.println(var0);
         return "Initialized";
+    }
+
+    @NotNull
+    public String getValue() {
+        Lazy var1 = this.value$delegate;
+        Object var2 = null;
+        return (String) var1.getValue();
     }
 }

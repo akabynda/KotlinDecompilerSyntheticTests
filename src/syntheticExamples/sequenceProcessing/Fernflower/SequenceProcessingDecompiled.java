@@ -1,8 +1,9 @@
 package syntheticExamples.sequenceProcessing.Fernflower;
 
-import java.util.List;
 import kotlin.Metadata;
 import kotlin.sequences.SequencesKt;
+
+import java.util.List;
 
 @Metadata(
         mv = {2, 0, 0},
@@ -12,7 +13,7 @@ import kotlin.sequences.SequencesKt;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class SequenceProcessingDecompiled {
-    public static final void main() {
+    public static void main() {
         Integer[] var1 = new Integer[]{1, 2, 3, 4, 5};
         List numbers = SequencesKt.toList(SequencesKt.map(SequencesKt.filter(SequencesKt.sequenceOf(var1), SequenceProcessingDecompiled::main$lambda$0), SequenceProcessingDecompiled::main$lambda$1));
         System.out.println(numbers);
@@ -23,11 +24,11 @@ public final class SequenceProcessingDecompiled {
         main();
     }
 
-    private static final boolean main$lambda$0(int it) {
+    private static boolean main$lambda$0(int it) {
         return it % 2 == 0;
     }
 
-    private static final int main$lambda$1(int it) {
+    private static int main$lambda$1(int it) {
         return it * it;
     }
 }

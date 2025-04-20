@@ -1,1 +1,1 @@
-package syntheticExamples.labeledBlocks.CFR;
+package syntheticExamples.labeledBlocks.CFR

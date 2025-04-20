@@ -1,6 +1,6 @@
 /*
  * Decompiled with CFR 0.152.
- * 
+ *
  * Could not load the following classes:
  *  kotlin.Metadata
  *  kotlin.jvm.internal.Intrinsics
@@ -12,23 +12,23 @@ import kotlin.Metadata;
 import kotlin.jvm.internal.Intrinsics;
 import kotlin.jvm.internal.SourceDebugExtension;
 
-@Metadata(mv={1, 9, 0}, k=2, xi=48, d1={"\u0000\u0010\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\u001a\u0011\u0010\u0000\u001a\u00020\u0001\"\u0006\b\u0000\u0010\u0002\u0018\u0001H\u0086\b\u001a\u0006\u0010\u0003\u001a\u00020\u0004\u00a8\u0006\u0005"}, d2={"getTypeName", "", "T", "main", "", "KotlinDecompiler"})
-@SourceDebugExtension(value={"SMAP\nReified.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Reified.kt\nsyntheticExamplesWoFixes/reified/ReifiedKt\n*L\n1#1,10:1\n4#1:11\n*S KotlinDebug\n*F\n+ 1 Reified.kt\nsyntheticExamplesWoFixes/reified/ReifiedKt\n*L\n8#1:11\n*E\n"})
+@Metadata(mv = {1, 9, 0}, k = 2, xi = 48, d1 = {"\u0000\u0010\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\u001a\u0011\u0010\u0000\u001a\u00020\u0001\"\u0006\b\u0000\u0010\u0002\u0018\u0001H\u0086\b\u001a\u0006\u0010\u0003\u001a\u00020\u0004\u00a8\u0006\u0005"}, d2 = {"getTypeName", "", "T", "main", "", "KotlinDecompiler"})
+@SourceDebugExtension(value = {"SMAP\nReified.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Reified.kt\nsyntheticExamplesWoFixes/reified/ReifiedKt\n*L\n1#1,10:1\n4#1:11\n*S KotlinDebug\n*F\n+ 1 Reified.kt\nsyntheticExamplesWoFixes/reified/ReifiedKt\n*L\n8#1:11\n*E\n"})
 public final class ReifiedKt {
-    public static final /* synthetic */ <T> String getTypeName() {
+    public static /* synthetic */ <T> String getTypeName() {
         boolean $i$f$getTypeName = false;
-        Intrinsics.reifiedOperationMarker((int)4, (String)"T");
+        Intrinsics.reifiedOperationMarker(4, "T");
         String string = Object.class.getSimpleName();
-        Intrinsics.checkNotNullExpressionValue((Object)string, (String)"getSimpleName(...)");
+        Intrinsics.checkNotNullExpressionValue(string, "getSimpleName(...)");
         return string;
     }
 
-    public static final void main() {
+    public static void main() {
         boolean $i$f$getTypeName = false;
         String string = String.class.getSimpleName();
-        Intrinsics.checkNotNullExpressionValue((Object)string, (String)"getSimpleName(...)");
+        Intrinsics.checkNotNullExpressionValue(string, "getSimpleName(...)");
         String string2 = string;
-        System.out.println((Object)string2);
+        System.out.println((Object) string2);
     }
 
     public static /* synthetic */ void main(String[] args) {

@@ -13,12 +13,12 @@ import org.jetbrains.annotations.NotNull;
 )
 public final class ExtensionDecompiled {
     @NotNull
-    public static final String greet(@NotNull String $this$greet) {
+    public static String greet(@NotNull String $this$greet) {
         Intrinsics.checkNotNullParameter($this$greet, "<this>");
         return "Hello, " + $this$greet;
     }
 
-    public static final void main() {
+    public static void main() {
         String var0 = greet("World");
         System.out.println(var0);
     }

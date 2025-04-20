@@ -14,19 +14,19 @@ class User {
     private val `name$delegate`: ReadWriteProperty<*, *>
 
     var name: String = ""
-        /*
-        get() = `name$delegate`.getValue(
+    /*
+    get() = `name$delegate`.getValue(
+        this as Any,
+        `$$delegatedProperties`[0]
+    ) as String
+    set(string) {
+        Intrinsics.checkNotNullParameter(string as Any, "<set-?>")
+        `name$delegate`.setValue(
             this as Any,
-            `$$delegatedProperties`[0]
-        ) as String
-        set(string) {
-            Intrinsics.checkNotNullParameter(string as Any, "<set-?>")
-            `name$delegate`.setValue(
-                this as Any,
-                `$$delegatedProperties`[0], string as Any
-            )
-        }
-         */
+            `$$delegatedProperties`[0], string as Any
+        )
+    }
+     */
 
     init {
         val delegates = Delegates

@@ -16,7 +16,7 @@ public final class Person {
         this.age = age;
     }
 
-    public final void sayHello() {
+    public void sayHello() {
         System.out.println("Привет, меня зовут " + this.name);
     }
 }

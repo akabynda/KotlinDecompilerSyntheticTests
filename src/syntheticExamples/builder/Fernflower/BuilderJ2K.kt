@@ -14,7 +14,7 @@ import kotlin.jvm.internal.Intrinsics
 object BuilderJ2K {
     // fun <T> buildList(block: Function1<MutableList<T>?, Unit>): List<T> {
     fun <T> buildList(block: Function1<MutableList<T>, Unit>): List<T> {
-    Intrinsics.checkNotNullParameter(block, "block")
+        Intrinsics.checkNotNullParameter(block, "block")
         // val list: List<T> = ArrayList()
         val list: MutableList<T> = ArrayList()
         block.invoke(list)

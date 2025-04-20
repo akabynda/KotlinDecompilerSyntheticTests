@@ -1,6 +1,6 @@
 package syntheticExamples.tailRecursion.CFR
 
-object TailRecursionJ2K{
+object TailRecursionJ2K {
     fun sum(n: Int, acc: Int): Int {
         var n2 = n
         var n3 = acc

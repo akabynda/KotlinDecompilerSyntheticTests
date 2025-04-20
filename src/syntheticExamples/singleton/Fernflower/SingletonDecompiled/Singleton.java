@@ -17,7 +17,7 @@ public final class Singleton {
     private Singleton() {
     }
 
-    public final void doSomething() {
+    public void doSomething() {
         String var1 = "Do something";
         System.out.println(var1);
     }

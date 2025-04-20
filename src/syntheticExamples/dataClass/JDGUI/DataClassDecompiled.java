@@ -18,25 +18,25 @@ public final class DataClassDecompiled {
     }
 
     @NotNull
-    public final String getName() {
+    public String getName() {
         return this.name;
     }
 
-    public final int getAge() {
+    public int getAge() {
         return this.age;
     }
 
     @NotNull
-    public final String component1() {
+    public String component1() {
         return this.name;
     }
 
-    public final int component2() {
+    public int component2() {
         return this.age;
     }
 
     @NotNull
-    public final DataClassDecompiled copy(@NotNull String name, int age) {
+    public DataClassDecompiled copy(@NotNull String name, int age) {
         Intrinsics.checkNotNullParameter(name, "name");
         return new DataClassDecompiled(name, age);
     }
@@ -54,9 +54,8 @@ public final class DataClassDecompiled {
     public boolean equals(@Nullable Object other) {
         if (this == other)
             return true;
-        if (!(other instanceof DataClassDecompiled))
+        if (!(other instanceof DataClassDecompiled dataClass))
             return false;
-        DataClassDecompiled dataClass = (DataClassDecompiled)other;
-        return !Intrinsics.areEqual(this.name, dataClass.name) ? false : (!(this.age != dataClass.age));
+        return Intrinsics.areEqual(this.name, dataClass.name) && (this.age == dataClass.age);
     }
 }

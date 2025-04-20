@@ -1,12 +1,5 @@
 package syntheticExamples.lazyInitialization.JDGUI.LazyInitializationDecompiled;
 
-import kotlin.Lazy;
-import kotlin.LazyKt;
-import kotlin.Metadata;
-import kotlin.jvm.functions.Function0;
-import kotlin.jvm.internal.Lambda;
-import org.jetbrains.annotations.NotNull;
-
 //'kotlin. Function' cannot be inherited as a raw type and with generic type arguments 'java. lang. String'
 
 /*

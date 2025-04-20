@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class IfElseDecompiled {
-    public static final void main() {
+    public static void main() {
         // int number = true; // original error
         boolean number = true;
         String var1 = "Число больше 5";

@@ -13,9 +13,9 @@ import syntheticExamples.classDelegation.Derived;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class ClassDelegation {
-    public static final void main() {
+    public static void main() {
         syntheticExamples.classDelegation.BaseImpl base = new BaseImpl("Hello from BaseImpl");
-        syntheticExamples.classDelegation.Derived derived = new Derived((Base)base);
+        syntheticExamples.classDelegation.Derived derived = new Derived(base);
         derived.printMessage();
     }
 

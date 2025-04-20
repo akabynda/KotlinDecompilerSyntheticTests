@@ -24,30 +24,6 @@ public final class DataClassDecompiled {
         this.age = age;
     }
 
-    @NotNull
-    public final String getName() {
-        return this.name;
-    }
-
-    public final int getAge() {
-        return this.age;
-    }
-
-    @NotNull
-    public final String component1() {
-        return this.name;
-    }
-
-    public final int component2() {
-        return this.age;
-    }
-
-    @NotNull
-    public final DataClassDecompiled copy(@NotNull String name, int age) {
-        Intrinsics.checkNotNullParameter(name, "name");
-        return new DataClassDecompiled(name, age);
-    }
-
     // $FF: synthetic method
     public static DataClassDecompiled copy$default(DataClassDecompiled var0, String var1, int var2, int var3, Object var4) {
         if ((var3 & 1) != 0) {
@@ -59,6 +35,30 @@ public final class DataClassDecompiled {
         }
 
         return var0.copy(var1, var2);
+    }
+
+    @NotNull
+    public String getName() {
+        return this.name;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    @NotNull
+    public String component1() {
+        return this.name;
+    }
+
+    public int component2() {
+        return this.age;
+    }
+
+    @NotNull
+    public DataClassDecompiled copy(@NotNull String name, int age) {
+        Intrinsics.checkNotNullParameter(name, "name");
+        return new DataClassDecompiled(name, age);
     }
 
     @NotNull
@@ -75,10 +75,9 @@ public final class DataClassDecompiled {
     public boolean equals(@Nullable Object other) {
         if (this == other) {
             return true;
-        } else if (!(other instanceof DataClassDecompiled)) {
+        } else if (!(other instanceof DataClassDecompiled var2)) {
             return false;
         } else {
-            DataClassDecompiled var2 = (DataClassDecompiled)other;
             if (!Intrinsics.areEqual(this.name, var2.name)) {
                 return false;
             } else {

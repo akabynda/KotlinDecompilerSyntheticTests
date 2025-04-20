@@ -1,11 +1,7 @@
 package syntheticExamples.propertyDelegation.Fernflower.PropertyDelegationDecompiled;
 
 import kotlin.Metadata;
-import kotlin.jvm.internal.Intrinsics;
-import kotlin.jvm.internal.MutablePropertyReference1;
-import kotlin.jvm.internal.MutablePropertyReference1Impl;
-import kotlin.jvm.internal.Reflection;
-import kotlin.jvm.internal.SourceDebugExtension;
+import kotlin.jvm.internal.*;
 import kotlin.properties.Delegates;
 import kotlin.properties.ReadWriteProperty;
 import kotlin.reflect.KProperty;
@@ -22,6 +18,12 @@ import org.jetbrains.annotations.NotNull;
 public final class User {
     // $FF: synthetic field
     static final KProperty[] $$delegatedProperties;
+
+    static {
+        KProperty[] var0 = new KProperty[]{Reflection.mutableProperty1(new MutablePropertyReference1Impl(User.class, "name", "getName()Ljava/lang/String;", 0))};
+        $$delegatedProperties = var0;
+    }
+
     @NotNull
     private final ReadWriteProperty name$delegate;
 
@@ -30,21 +32,16 @@ public final class User {
         Object initialValue$iv = "<not set>";
         // int $i$f$observable = false;
         boolean $i$f$observable = false;
-        this.name$delegate = (ReadWriteProperty)(new User$special$$inlined$observable$1(initialValue$iv));
+        this.name$delegate = new User$special$$inlined$observable$1(initialValue$iv);
     }
 
     @NotNull
-    public final String getName() {
-        return (String)this.name$delegate.getValue(this, $$delegatedProperties[0]);
+    public String getName() {
+        return (String) this.name$delegate.getValue(this, $$delegatedProperties[0]);
     }
 
-    public final void setName(@NotNull String var1) {
+    public void setName(@NotNull String var1) {
         Intrinsics.checkNotNullParameter(var1, "<set-?>");
         this.name$delegate.setValue(this, $$delegatedProperties[0], var1);
-    }
-
-    static {
-        KProperty[] var0 = new KProperty[]{Reflection.mutableProperty1((MutablePropertyReference1)(new MutablePropertyReference1Impl(User.class, "name", "getName()Ljava/lang/String;", 0)))};
-        $$delegatedProperties = var0;
     }
 }

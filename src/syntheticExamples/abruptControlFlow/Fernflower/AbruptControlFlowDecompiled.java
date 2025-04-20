@@ -10,8 +10,8 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class AbruptControlFlowDecompiled {
-    public static final void main() {
-        for(int i = 1; i < 11; ++i) {
+    public static void main() {
+        for (int i = 1; i < 11; ++i) {
             String var1;
             if (i == 5) {
                 var1 = "Breaking the loop at " + i;

@@ -1,1 +1,1 @@
-package syntheticExamples.labeledBlocks.JDGUI;
+package syntheticExamples.labeledBlocks.JDGUI

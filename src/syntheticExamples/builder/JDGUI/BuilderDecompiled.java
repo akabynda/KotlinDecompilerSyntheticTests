@@ -1,15 +1,5 @@
 package syntheticExamples.builder.JDGUI;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import kotlin.Metadata;
-import kotlin.Unit;
-import kotlin.jvm.functions.Function1;
-import kotlin.jvm.internal.Intrinsics;
-import kotlin.jvm.internal.Lambda;
-import org.jetbrains.annotations.NotNull;
-
 // 'kotlin. Function' cannot be inherited as a raw type and with generic type arguments 'kotlin. Unit'
 
 /*

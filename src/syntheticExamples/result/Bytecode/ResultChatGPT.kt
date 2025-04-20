@@ -1,7 +1,5 @@
 package syntheticExamples.result.Bytecode
 
-import kotlin.Result
-
 fun getResult(n: Int): Result<Int> {
     return if (n > 0) {
         Result.success(n)

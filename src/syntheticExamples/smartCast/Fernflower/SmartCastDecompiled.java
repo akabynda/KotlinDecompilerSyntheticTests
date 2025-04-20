@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class SmartCastDecompiled {
-    public static final void main() {
+    public static void main() {
         Object obj = "String";
         int var1 = // obj.length();
                 0;

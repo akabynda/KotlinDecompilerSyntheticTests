@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class HelloKotlinDecompiled {
-    public static final void main() {
+    public static void main() {
         String var0 = "Привет, Kotlin!";
         System.out.println(var0);
     }

@@ -21,33 +21,6 @@ public final class Vector {
         this.y = y;
     }
 
-    public final int getX() {
-        return this.x;
-    }
-
-    public final int getY() {
-        return this.y;
-    }
-
-    @NotNull
-    public final Vector plus(@NotNull Vector other) {
-        Intrinsics.checkNotNullParameter(other, "other");
-        return new Vector(this.x + other.x, this.y + other.y);
-    }
-
-    public final int component1() {
-        return this.x;
-    }
-
-    public final int component2() {
-        return this.y;
-    }
-
-    @NotNull
-    public final Vector copy(int x, int y) {
-        return new Vector(x, y);
-    }
-
     // $FF: synthetic method
     public static Vector copy$default(Vector var0, int var1, int var2, int var3, Object var4) {
         if ((var3 & 1) != 0) {
@@ -59,6 +32,33 @@ public final class Vector {
         }
 
         return var0.copy(var1, var2);
+    }
+
+    public int getX() {
+        return this.x;
+    }
+
+    public int getY() {
+        return this.y;
+    }
+
+    @NotNull
+    public Vector plus(@NotNull Vector other) {
+        Intrinsics.checkNotNullParameter(other, "other");
+        return new Vector(this.x + other.x, this.y + other.y);
+    }
+
+    public int component1() {
+        return this.x;
+    }
+
+    public int component2() {
+        return this.y;
+    }
+
+    @NotNull
+    public Vector copy(int x, int y) {
+        return new Vector(x, y);
     }
 
     @NotNull
@@ -75,10 +75,9 @@ public final class Vector {
     public boolean equals(@Nullable Object other) {
         if (this == other) {
             return true;
-        } else if (!(other instanceof Vector)) {
+        } else if (!(other instanceof Vector var2)) {
             return false;
         } else {
-            Vector var2 = (Vector)other;
             if (this.x != var2.x) {
                 return false;
             } else {

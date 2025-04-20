@@ -1,9 +1,5 @@
 package syntheticExamples.result.Fernflower;
 
-import kotlin.Metadata;
-import kotlin.Result;
-import org.jetbrains.annotations.NotNull;
-
 // doesn't work
 
 /*

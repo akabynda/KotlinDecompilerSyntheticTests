@@ -2,6 +2,7 @@ package syntheticExamples.reified.Fernflower
 
 import kotlin.jvm.internal.Intrinsics
 import kotlin.jvm.internal.SourceDebugExtension
+
 /*
 @Metadata(
     mv = [2, 0, 0],

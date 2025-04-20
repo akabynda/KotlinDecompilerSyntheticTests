@@ -1,4 +1,4 @@
-package syntheticExamples.labeledBlocks.JDGUI;
+package syntheticExamples.labeledBlocks.JDGUI
 
 fun main() {
     outer@ for (i in 1 until 6) {

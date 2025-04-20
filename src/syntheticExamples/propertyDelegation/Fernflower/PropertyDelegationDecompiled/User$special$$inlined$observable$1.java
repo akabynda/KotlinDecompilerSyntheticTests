@@ -22,9 +22,9 @@ public final class User$special$$inlined$observable$1 extends ObservableProperty
     protected void afterChange(KProperty property, Object oldValue, Object newValue) {
         Intrinsics.checkNotNullParameter(property, "property");
         // String newValue = (String)newValue;
-        String NewValue = (String)newValue;
+        String NewValue = (String) newValue;
         // String oldValue = (String)oldValue;
-        String OldValue = (String)oldValue;
+        String OldValue = (String) oldValue;
         // int var7 = false;
         boolean var7 = false;
         String var8 = "Name changed from \"" + OldValue + "\" to \"" + NewValue + '"';

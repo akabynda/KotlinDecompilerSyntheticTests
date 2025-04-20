@@ -10,11 +10,11 @@ import kotlin.Metadata;
         d2 = {"factorial", "", "n", "main", "", "KotlinDecompiler"}
 )
 public final class RecursionDecompiled {
-    public static final int factorial(int n) {
+    public static int factorial(int n) {
         return n <= 1 ? 1 : n * factorial(n - 1);
     }
 
-    public static final void main() {
+    public static void main() {
         int var0 = factorial(5);
         System.out.println(var0);
     }

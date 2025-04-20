@@ -13,7 +13,7 @@ public final class BaseImpl implements Base {
     }
 
     @NotNull
-    public final String getMessage() {
+    public String getMessage() {
         return this.message;
     }
 

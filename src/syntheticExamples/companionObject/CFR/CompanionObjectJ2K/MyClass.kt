@@ -4,6 +4,7 @@ import kotlin.jvm.internal.DefaultConstructorMarker
 
 object MyClass {
     val companion: Companion = Companion(null)
+
     /*
     @Metadata(
         mv = [2, 0, 0],

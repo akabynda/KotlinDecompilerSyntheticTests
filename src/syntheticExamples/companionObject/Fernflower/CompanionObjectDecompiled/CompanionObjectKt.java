@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class CompanionObjectKt {
-    public static final void main() {
+    public static void main() {
         MyClass.Companion.greet();
     }
 

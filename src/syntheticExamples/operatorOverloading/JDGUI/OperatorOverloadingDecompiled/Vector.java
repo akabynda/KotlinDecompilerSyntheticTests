@@ -16,30 +16,30 @@ public final class Vector {
         this.y = y;
     }
 
-    public final int getX() {
+    public int getX() {
         return this.x;
     }
 
-    public final int getY() {
+    public int getY() {
         return this.y;
     }
 
     @NotNull
-    public final Vector plus(@NotNull Vector other) {
+    public Vector plus(@NotNull Vector other) {
         Intrinsics.checkNotNullParameter(other, "other");
         return new Vector(this.x + other.x, this.y + other.y);
     }
 
-    public final int component1() {
+    public int component1() {
         return this.x;
     }
 
-    public final int component2() {
+    public int component2() {
         return this.y;
     }
 
     @NotNull
-    public final Vector copy(int x, int y) {
+    public Vector copy(int x, int y) {
         return new Vector(x, y);
     }
 
@@ -56,9 +56,8 @@ public final class Vector {
     public boolean equals(@Nullable Object other) {
         if (this == other)
             return true;
-        if (!(other instanceof Vector))
+        if (!(other instanceof Vector vector))
             return false;
-        Vector vector = (Vector) other;
-        return (this.x != vector.x) ? false : (!(this.y != vector.y));
+        return this.x == vector.x && (this.y == vector.y);
     }
 }

@@ -10,9 +10,9 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class SafeCastDecompiled {
-    public static final void main() {
+    public static void main() {
         Object obj = "String";
-        Integer num = obj instanceof Integer ? (Integer)obj : null;
+        Integer num = obj instanceof Integer ? (Integer) obj : null;
         System.out.println(num);
     }
 

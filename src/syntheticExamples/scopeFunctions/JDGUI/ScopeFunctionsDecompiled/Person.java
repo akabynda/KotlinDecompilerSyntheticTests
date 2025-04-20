@@ -22,48 +22,48 @@ public final class Person {
     }
 
     @NotNull
-    public final String getName() {
+    public String getName() {
         return this.name;
     }
 
-    public final void setName(@NotNull String string) {
+    public void setName(@NotNull String string) {
         Intrinsics.checkNotNullParameter(string, "<set-?>");
         this.name = string;
     }
 
-    public final int getAge() {
+    public int getAge() {
         return this.age;
     }
 
-    public final void setAge(int n) {
+    public void setAge(int n) {
         this.age = n;
     }
 
     @Nullable
-    public final String getEmail() {
+    public String getEmail() {
         return this.email;
     }
 
-    public final void setEmail(@Nullable String string) {
+    public void setEmail(@Nullable String string) {
         this.email = string;
     }
 
     @NotNull
-    public final String component1() {
+    public String component1() {
         return this.name;
     }
 
-    public final int component2() {
+    public int component2() {
         return this.age;
     }
 
     @Nullable
-    public final String component3() {
+    public String component3() {
         return this.email;
     }
 
     @NotNull
-    public final Person copy(@NotNull String name, int age, @Nullable String email) {
+    public Person copy(@NotNull String name, int age, @Nullable String email) {
         Intrinsics.checkNotNullParameter(name, "name");
         return new Person(name, age, email);
     }
@@ -82,9 +82,8 @@ public final class Person {
     public boolean equals(@Nullable Object other) {
         if (this == other)
             return true;
-        if (!(other instanceof Person))
+        if (!(other instanceof Person person))
             return false;
-        Person person = (Person)other;
-        return !Intrinsics.areEqual(this.name, person.name) ? false : ((this.age != person.age) ? false : (!!Intrinsics.areEqual(this.email, person.email)));
+        return Intrinsics.areEqual(this.name, person.name) && (this.age == person.age && (Intrinsics.areEqual(this.email, person.email)));
     }
 }

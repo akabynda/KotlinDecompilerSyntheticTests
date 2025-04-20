@@ -7,10 +7,10 @@ public final class Box<T> {
     private final T value;
 
     public Box(Object value) {
-        this.value = (T)value;
+        this.value = (T) value;
     }
 
-    public final T getValue() {
+    public T getValue() {
         return this.value;
     }
 }

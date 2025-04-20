@@ -1,6 +1,9 @@
 package syntheticExamples.propertyDelegation.Fernflower.PropertyDelegationJ2K
 
-import kotlin.jvm.internal.*
+import kotlin.jvm.internal.MutablePropertyReference1
+import kotlin.jvm.internal.MutablePropertyReference1Impl
+import kotlin.jvm.internal.Reflection
+import kotlin.jvm.internal.SourceDebugExtension
 import kotlin.properties.Delegates
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty

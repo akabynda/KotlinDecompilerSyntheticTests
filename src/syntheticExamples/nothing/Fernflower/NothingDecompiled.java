@@ -1,6 +1,7 @@
 package syntheticExamples.nothing.Fernflower;
 
 //import kotlin.KotlinNothingValueException;
+
 import kotlin.Metadata;
 import kotlin.jvm.internal.Intrinsics;
 import org.jetbrains.annotations.NotNull;
@@ -14,12 +15,12 @@ import org.jetbrains.annotations.NotNull;
 )
 public final class NothingDecompiled {
     @NotNull
-    public static final Void fail(@NotNull String message) {
+    public static Void fail(@NotNull String message) {
         Intrinsics.checkNotNullParameter(message, "message");
         throw new IllegalArgumentException(message);
     }
 
-    public static final void main() {
+    public static void main() {
         fail("An error occurred");
         // throw new KotlinNothingValueException();
     }

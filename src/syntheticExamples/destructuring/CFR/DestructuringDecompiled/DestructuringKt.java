@@ -11,7 +11,7 @@ import syntheticExamples.destructuring.Fernflower.DestructuringDecompiled.Point;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class DestructuringKt {
-    public static final void main() {
+    public static void main() {
         syntheticExamples.destructuring.Fernflower.DestructuringDecompiled.Point var0 = new Point(10, 20);
         int x = var0.component1();
         int y = var0.component2();

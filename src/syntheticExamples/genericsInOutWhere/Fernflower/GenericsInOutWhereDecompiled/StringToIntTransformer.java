@@ -21,6 +21,6 @@ public final class StringToIntTransformer implements Transformer {
     // $FF: synthetic method
     // $FF: bridge method
     public Object transform(Object value) {
-        return this.transform((CharSequence)value);
+        return this.transform((CharSequence) value);
     }
 }

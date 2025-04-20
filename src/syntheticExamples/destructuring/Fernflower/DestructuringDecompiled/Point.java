@@ -20,27 +20,6 @@ public final class Point {
         this.y = y;
     }
 
-    public final int getX() {
-        return this.x;
-    }
-
-    public final int getY() {
-        return this.y;
-    }
-
-    public final int component1() {
-        return this.x;
-    }
-
-    public final int component2() {
-        return this.y;
-    }
-
-    @NotNull
-    public final Point copy(int x, int y) {
-        return new Point(x, y);
-    }
-
     // $FF: synthetic method
     public static Point copy$default(Point var0, int var1, int var2, int var3, Object var4) {
         if ((var3 & 1) != 0) {
@@ -52,6 +31,27 @@ public final class Point {
         }
 
         return var0.copy(var1, var2);
+    }
+
+    public int getX() {
+        return this.x;
+    }
+
+    public int getY() {
+        return this.y;
+    }
+
+    public int component1() {
+        return this.x;
+    }
+
+    public int component2() {
+        return this.y;
+    }
+
+    @NotNull
+    public Point copy(int x, int y) {
+        return new Point(x, y);
     }
 
     @NotNull
@@ -68,10 +68,9 @@ public final class Point {
     public boolean equals(@Nullable Object other) {
         if (this == other) {
             return true;
-        } else if (!(other instanceof Point)) {
+        } else if (!(other instanceof Point var2)) {
             return false;
         } else {
-            Point var2 = (Point)other;
             if (this.x != var2.x) {
                 return false;
             } else {

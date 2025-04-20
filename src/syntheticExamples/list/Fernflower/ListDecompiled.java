@@ -1,9 +1,10 @@
 package syntheticExamples.list.Fernflower;
 
-import java.util.Iterator;
-import java.util.List;
 import kotlin.Metadata;
 import kotlin.collections.CollectionsKt;
+
+import java.util.Iterator;
+import java.util.List;
 
 @Metadata(
         mv = {2, 0, 0},
@@ -13,13 +14,13 @@ import kotlin.collections.CollectionsKt;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class ListDecompiled {
-    public static final void main() {
+    public static void main() {
         String[] var1 = new String[]{"Яблоко", "Банан", "Вишня"};
         List list = CollectionsKt.listOf(var1);
         Iterator var3 = list.iterator();
 
-        while(var3.hasNext()) {
-            String fruit = (String)var3.next();
+        while (var3.hasNext()) {
+            String fruit = (String) var3.next();
             System.out.println(fruit);
         }
 

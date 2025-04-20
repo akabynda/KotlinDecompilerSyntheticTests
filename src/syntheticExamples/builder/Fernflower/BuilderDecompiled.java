@@ -1,12 +1,13 @@
 package syntheticExamples.builder.Fernflower;
 
-import java.util.ArrayList;
-import java.util.List;
 import kotlin.Metadata;
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
 import kotlin.jvm.internal.Intrinsics;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Metadata(
         mv = {2, 0, 0},
@@ -18,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 public final class BuilderDecompiled {
     @NotNull
     // public static final List buildList(@NotNull Function1 block) {
-    public static final <T> List<T> buildList(@NotNull Function1<? super List<T>, Unit> block) {
+    public static <T> List<T> buildList(@NotNull Function1<? super List<T>, Unit> block) {
         Intrinsics.checkNotNullParameter(block, "block");
         // List list = (List)(new ArrayList());
         List<T> list = new ArrayList<>();
@@ -26,7 +27,7 @@ public final class BuilderDecompiled {
         return list;
     }
 
-    public static final void main() {
+    public static void main() {
         // List numbers = buildList(BuilderDecompiled::main$lambda$0);
         List<Integer> numbers = buildList(BuilderDecompiled::populateListWithIntegers);
         System.out.println(numbers);
@@ -38,7 +39,7 @@ public final class BuilderDecompiled {
     }
 
     // private static final Unit main$lambda$0(List $this$buildList) {
-    private static final Unit populateListWithIntegers(List<Integer> list) {
+    private static Unit populateListWithIntegers(List<Integer> list) {
         Intrinsics.checkNotNullParameter(list, "list");
         list.add(1);
         list.add(2);

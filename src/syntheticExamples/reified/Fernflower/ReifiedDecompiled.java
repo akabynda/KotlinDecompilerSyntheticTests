@@ -14,16 +14,16 @@ import kotlin.jvm.internal.SourceDebugExtension;
 @SourceDebugExtension({"SMAP\nReified.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Reified.kt\nsyntheticExamples/reified/ReifiedKt\n*L\n1#1,10:1\n4#1:11\n*S KotlinDebug\n*F\n+ 1 Reified.kt\nsyntheticExamples/reified/ReifiedKt\n*L\n8#1:11\n*E\n"})
 public final class ReifiedDecompiled {
     // $FF: synthetic method
-    public static final String getTypeName() {
+    public static String getTypeName() {
         // int $i$f$getTypeName = false;
         boolean $i$f$getTypeName = false;
         Intrinsics.reifiedOperationMarker(4, "T");
-        String var1 = ((Class)Object.class).getSimpleName();
+        String var1 = Object.class.getSimpleName();
         Intrinsics.checkNotNullExpressionValue(var1, "getSimpleName(...)");
-        return (String)var1;
+        return var1;
     }
 
-    public static final void main() {
+    public static void main() {
         // int $i$f$getTypeName = false;
         boolean $i$f$getTypeName = false;
         String var1 = String.class.getSimpleName();

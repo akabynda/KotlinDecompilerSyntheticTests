@@ -14,7 +14,7 @@ object HigherOrderFunctionJ2K {
         main()
     }
 
-    internal class HigherOrderFunctionJ2KMainSquare1 : Lambda<Int?>(1), Function1<Int?, Int?>  {
+    internal class HigherOrderFunctionJ2KMainSquare1 : Lambda<Int?>(1), Function1<Int?, Int?> {
 
         companion object {
             val INSTANCE: HigherOrderFunctionJ2KMainSquare1 =
@@ -22,7 +22,7 @@ object HigherOrderFunctionJ2K {
         }
 
         override fun invoke(p1: Int?): Int {
-            return (p1?: Int.MIN_VALUE) * (p1 ?: Int.MIN_VALUE)
+            return (p1 ?: Int.MIN_VALUE) * (p1 ?: Int.MIN_VALUE)
         }
     }
 }

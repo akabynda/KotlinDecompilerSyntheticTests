@@ -8,7 +8,7 @@ public final class Singleton {
     @NotNull
     public static final Singleton INSTANCE = new Singleton();
 
-    public final void doSomething() {
+    public void doSomething() {
         System.out.println("Do something");
     }
 }

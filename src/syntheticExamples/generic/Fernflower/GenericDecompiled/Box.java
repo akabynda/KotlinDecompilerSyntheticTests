@@ -16,7 +16,7 @@ public final class Box {
         this.value = value;
     }
 
-    public final Object getValue() {
+    public Object getValue() {
         return this.value;
     }
 }

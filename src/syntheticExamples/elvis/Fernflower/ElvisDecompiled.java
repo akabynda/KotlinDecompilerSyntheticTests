@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class ElvisDecompiled {
-    public static final void main() {
+    public static void main() {
         String str = null;
         String result = "Default value";
         System.out.println(result);

@@ -10,7 +10,7 @@ import kotlin.Metadata;
         d2 = {"main", "", "KotlinDecompiler"}
 )
 public final class Main {
-    public static final void main() {
+    public static void main() {
         Person person = new Person("Alice", 29);
         person.sayHello();
     }

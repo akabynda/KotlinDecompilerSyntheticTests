@@ -1,4 +1,5 @@
 package syntheticExamples.loops.Fernflower
+
 /*
 @Metadata(
     mv = [2, 0, 0],
