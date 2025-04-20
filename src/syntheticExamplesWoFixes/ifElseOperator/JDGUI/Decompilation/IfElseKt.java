@@ -1,0 +1,17 @@
+package syntheticExamplesWoFixes.ifElseOperator.JDGUI.Decompilation;
+
+import kotlin.Metadata;
+
+@Metadata(mv = {1, 9, 0}, k = 2, xi = 48, d1 = {"\000\b\n\000\n\002\020\002\n\000\032\006\020\000\032\0020\001¨\006\002"}, d2 = {"main", "", "KotlinDecompiler"})
+public final class IfElseKt {
+    public static void main() {
+        int number = 10;
+        System.out.println("Число больше 5");
+    }
+}
+
+
+/* Location:              /Users/akabynda/KotlinDecompiler/out/production/KotlinDecompiler/!/syntheticExamplesWoFixes/ifElseOperator/IfElseKt.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.1.3
+ */
