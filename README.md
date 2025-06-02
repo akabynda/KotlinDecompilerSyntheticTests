@@ -1,13 +1,7 @@
-# KotlinDecompiler
+# KotlinDecompilerSyntheticTests
 
-Данный репозиторий содержит инструмент для декомпиляции байт-кода JVM в язык программирования Kotlin. Проект включает:
-- Набор тестовых примеров, демонстрирующих уникальные особенности Kotlin;
-- Систему метрик для количественной оценки качества декомпиляции (Program Size, Conditional Statements, Conditional Complexity, Abrupt Control Flow, Labeled Blocks, Local Variables);
-- Сравнительный анализ различных комбинаций декомпиляторов (Fernflower, CFR, JD-GUI) и конвертеров (J2K, CodeConvert, ChatGPT).
+This repository contains synthetic test cases and a comparative analysis of existing approaches for decompiling JVM bytecode into Kotlin source code.
 
-## Основные возможности
-- Автоматизированная декомпиляция байт-кода в Java с последующей конвертацией в Kotlin.
-- Вычисление метрик качества восстановления кода и их сравнение с исходным кодом.
-
-## Планы на будущее
-Планируется расширение тестовой базы, оптимизация методов декомпиляции и проведение дополнительных экспериментов на реальных проектах для окончательной валидации инструмента.
+It includes:
+- A set of synthetic Kotlin test cases that highlight unique language features.
+- A comparative analysis of decompilation pipelines (Fernflower, CFR, JD-GUI) combined with conversion tools (J2K, CodeConvert, ChatGPT).
